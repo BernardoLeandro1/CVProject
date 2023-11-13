@@ -1,0 +1,80 @@
+[gd_scene load_steps=9 format=3 uid="uid://56ea856liqlk"]
+
+[ext_resource type="Texture2D" uid="uid://nn2ro1om2vwq" path="res://assets/textures/dev/grids/Floor/1-Classic-Floor-Tile-Background-Texture-copy.jpg" id="1_g0tog"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_go1eq"]
+[ext_resource type="Texture2D" uid="uid://bomdya31b0abn" path="res://assets/hdris/kloofendal_48d_partly_cloudy_puresky_2k.hdr" id="2_fkov3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i3wt8"]
+albedo_texture = ExtResource("1_g0tog")
+uv1_triplanar = true
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_4f5fp"]
+panorama = ExtResource("2_fkov3")
+
+[sub_resource type="Sky" id="Sky_v3vak"]
+sky_material = SubResource("PanoramaSkyMaterial_4f5fp")
+
+[sub_resource type="Environment" id="Environment_smxf5"]
+background_mode = 2
+sky = SubResource("Sky_v3vak")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_c0cng"]
+
+[node name="World" type="Node3D"]
+
+[node name="kitchen" type="Node3D" parent="."]
+
+[node name="floor" type="CSGBox3D" parent="kitchen"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+use_collision = true
+size = Vector3(20, 1, 20)
+material = SubResource("StandardMaterial3D_i3wt8")
+
+[node name="wall1" type="CSGBox3D" parent="kitchen"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -0.086)
+use_collision = true
+size = Vector3(1, 5, 20)
+material = SubResource("StandardMaterial3D_i3wt8")
+
+[node name="wall2" type="CSGBox3D" parent="kitchen"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 0)
+use_collision = true
+size = Vector3(1, 5, 20)
+material = SubResource("StandardMaterial3D_i3wt8")
+
+[node name="wall3" type="CSGBox3D" parent="kitchen"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 10)
+use_collision = true
+size = Vector3(20, 5, 1)
+material = SubResource("StandardMaterial3D_i3wt8")
+
+[node name="wall4" type="CSGBox3D" parent="kitchen"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10)
+use_collision = true
+size = Vector3(20, 5, 1)
+material = SubResource("StandardMaterial3D_i3wt8")
+
+[node name="ceiling" type="CSGBox3D" parent="kitchen"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+use_collision = true
+size = Vector3(20, 1, 20)
+material = SubResource("StandardMaterial3D_i3wt8")
+
+[node name="env" type="Node3D" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="env"]
+environment = SubResource("Environment_smxf5")
+
+[node name="player" type="CharacterBody3D" parent="."]
+script = ExtResource("1_go1eq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_c0cng")
+
+[node name="head" type="Node3D" parent="player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
+
+[node name="Camera3D" type="Camera3D" parent="player/head"]
