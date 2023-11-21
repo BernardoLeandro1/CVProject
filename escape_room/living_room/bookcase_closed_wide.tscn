@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3 uid="uid://5qd0e2u0dnqa"]
+
+[ext_resource type="PackedScene" uid="uid://bni2deqdy34u6" path="res://furniture/GLTF format/bookcaseClosedWide.glb" id="1_guxlk"]
+[ext_resource type="PackedScene" uid="uid://cpyna3046xehc" path="res://furniture/GLTF format/books.glb" id="2_1thxi"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xbauv"]
+size = Vector3(0.802896, 0.797651, 1)
+
+[node name="bookcaseClosedWide" instance=ExtResource("1_guxlk")]
+
+[node name="books" parent="." index="1" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0382996, 0.0786743, -0.0632296)
+
+[node name="books4" parent="." index="2" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.50502, 0.0786743, -0.0632296)
+
+[node name="books3" parent="." index="3" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.347443, 0.0786743, -0.0632296)
+
+[node name="books2" parent="." index="4" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.195923, 0.0786743, -0.0632296)
+
+[node name="books5" parent="." index="5" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.141342, 0.311691, -0.0632296)
+
+[node name="books6" parent="." index="6" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.608063, 0.311691, -0.0632296)
+
+[node name="books7" parent="." index="7" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.450485, 0.311691, -0.0632296)
+
+[node name="books8" parent="." index="8" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.298965, 0.311691, -0.0632296)
+
+[node name="books9" parent="." index="9" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104996, 0.553787, -0.0632296)
+
+[node name="books10" parent="." index="10" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.571716, 0.553787, -0.0632296)
+
+[node name="books11" parent="." index="11" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.414139, 0.553787, -0.0632296)
+
+[node name="books12" parent="." index="12" instance=ExtResource("2_1thxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.262619, 0.553787, -0.0632296)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="13"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.25, 0.399033, 0.387281, -0.124307)
+shape = SubResource("BoxShape3D_xbauv")
