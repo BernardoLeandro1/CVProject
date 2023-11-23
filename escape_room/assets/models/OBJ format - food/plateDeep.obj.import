@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4mgycf3wqjgn"
+path="res://.godot/imported/plateDeep.obj-6312b7363ddda5015d2db3c87c6de559.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plateDeep.obj-6312b7363ddda5015d2db3c87c6de559.mesh"]
+
+source_file="res://assets/models/OBJ format - food/plateDeep.obj"
+dest_files=["res://.godot/imported/plateDeep.obj-6312b7363ddda5015d2db3c87c6de559.mesh", "res://.godot/imported/plateDeep.obj-6312b7363ddda5015d2db3c87c6de559.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

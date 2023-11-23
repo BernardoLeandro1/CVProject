@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b6bgeqn4vpcmr"
+path="res://.godot/imported/chopstickFancy.obj-2e923bb69159714c514f55700847526c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chopstickFancy.obj-2e923bb69159714c514f55700847526c.mesh"]
+
+source_file="res://assets/models/OBJ format - food/chopstickFancy.obj"
+dest_files=["res://.godot/imported/chopstickFancy.obj-2e923bb69159714c514f55700847526c.mesh", "res://.godot/imported/chopstickFancy.obj-2e923bb69159714c514f55700847526c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

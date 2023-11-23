@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ikk1lsq660ek"
+path="res://.godot/imported/cookingFork.obj-803ef3fcb6ccbbe33973fa8ec3bfb315.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cookingFork.obj-803ef3fcb6ccbbe33973fa8ec3bfb315.mesh"]
+
+source_file="res://assets/models/OBJ format - food/cookingFork.obj"
+dest_files=["res://.godot/imported/cookingFork.obj-803ef3fcb6ccbbe33973fa8ec3bfb315.mesh", "res://.godot/imported/cookingFork.obj-803ef3fcb6ccbbe33973fa8ec3bfb315.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

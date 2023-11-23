@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://3xk7lunhn40f"
+path="res://.godot/imported/iceCreamCone.obj-593a72694cc2fd3d3a6e9e4154c4148b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/iceCreamCone.obj-593a72694cc2fd3d3a6e9e4154c4148b.mesh"]
+
+source_file="res://assets/models/OBJ format - food/iceCreamCone.obj"
+dest_files=["res://.godot/imported/iceCreamCone.obj-593a72694cc2fd3d3a6e9e4154c4148b.mesh", "res://.godot/imported/iceCreamCone.obj-593a72694cc2fd3d3a6e9e4154c4148b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

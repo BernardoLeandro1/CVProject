@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ekdevwu1bgtm"
+path="res://.godot/imported/iceCreamScoopMint.obj-7348c18ff7aeb6b2afe5b8d0100728ec.mesh"
+
+[deps]
+
+files=["res://.godot/imported/iceCreamScoopMint.obj-7348c18ff7aeb6b2afe5b8d0100728ec.mesh"]
+
+source_file="res://assets/models/OBJ format - food/iceCreamScoopMint.obj"
+dest_files=["res://.godot/imported/iceCreamScoopMint.obj-7348c18ff7aeb6b2afe5b8d0100728ec.mesh", "res://.godot/imported/iceCreamScoopMint.obj-7348c18ff7aeb6b2afe5b8d0100728ec.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

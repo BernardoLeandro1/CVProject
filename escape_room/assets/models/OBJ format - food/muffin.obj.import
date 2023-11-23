@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://6hqn643r4gel"
+path="res://.godot/imported/muffin.obj-21b80bfef85464cd79b18b128febc45e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/muffin.obj-21b80bfef85464cd79b18b128febc45e.mesh"]
+
+source_file="res://assets/models/OBJ format - food/muffin.obj"
+dest_files=["res://.godot/imported/muffin.obj-21b80bfef85464cd79b18b128febc45e.mesh", "res://.godot/imported/muffin.obj-21b80bfef85464cd79b18b128febc45e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

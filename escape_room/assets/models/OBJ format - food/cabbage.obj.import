@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3j8vnf2s6j0h"
+path="res://.godot/imported/cabbage.obj-038090463728ec24070bc5acc93699f7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cabbage.obj-038090463728ec24070bc5acc93699f7.mesh"]
+
+source_file="res://assets/models/OBJ format - food/cabbage.obj"
+dest_files=["res://.godot/imported/cabbage.obj-038090463728ec24070bc5acc93699f7.mesh", "res://.godot/imported/cabbage.obj-038090463728ec24070bc5acc93699f7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d4geogjqkkgex"
+path="res://.godot/imported/bedBunk.obj-9cb6791626b9ecd0667c8fcd9a015ddf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bedBunk.obj-9cb6791626b9ecd0667c8fcd9a015ddf.mesh"]
+
+source_file="res://assets/models/OBJ format/bedBunk.obj"
+dest_files=["res://.godot/imported/bedBunk.obj-9cb6791626b9ecd0667c8fcd9a015ddf.mesh", "res://.godot/imported/bedBunk.obj-9cb6791626b9ecd0667c8fcd9a015ddf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

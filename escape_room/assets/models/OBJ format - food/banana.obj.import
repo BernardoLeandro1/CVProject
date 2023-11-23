@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://fwfwfpuu6owi"
+path="res://.godot/imported/banana.obj-8088ecea3cccbfb2918e4d7ec0a03d9c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/banana.obj-8088ecea3cccbfb2918e4d7ec0a03d9c.mesh"]
+
+source_file="res://assets/models/OBJ format - food/banana.obj"
+dest_files=["res://.godot/imported/banana.obj-8088ecea3cccbfb2918e4d7ec0a03d9c.mesh", "res://.godot/imported/banana.obj-8088ecea3cccbfb2918e4d7ec0a03d9c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

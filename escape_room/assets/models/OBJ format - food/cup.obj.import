@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bci2qsnhf74v1"
+path="res://.godot/imported/cup.obj-24ff660f629b653831b8099281416edb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cup.obj-24ff660f629b653831b8099281416edb.mesh"]
+
+source_file="res://assets/models/OBJ format - food/cup.obj"
+dest_files=["res://.godot/imported/cup.obj-24ff660f629b653831b8099281416edb.mesh", "res://.godot/imported/cup.obj-24ff660f629b653831b8099281416edb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

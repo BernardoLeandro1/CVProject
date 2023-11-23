@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmed1fvukw2rw"
+path="res://.godot/imported/plateBroken.obj-44bbc6dee3a3f48d9c36914b8e6f603c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plateBroken.obj-44bbc6dee3a3f48d9c36914b8e6f603c.mesh"]
+
+source_file="res://assets/models/OBJ format - food/plateBroken.obj"
+dest_files=["res://.godot/imported/plateBroken.obj-44bbc6dee3a3f48d9c36914b8e6f603c.mesh", "res://.godot/imported/plateBroken.obj-44bbc6dee3a3f48d9c36914b8e6f603c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://de0t6qtk4ntq6"
+path="res://.godot/imported/benchCushion.obj-ce3b162e4f4412064703f0a16f602a38.mesh"
+
+[deps]
+
+files=["res://.godot/imported/benchCushion.obj-ce3b162e4f4412064703f0a16f602a38.mesh"]
+
+source_file="res://assets/models/OBJ format/benchCushion.obj"
+dest_files=["res://.godot/imported/benchCushion.obj-ce3b162e4f4412064703f0a16f602a38.mesh", "res://.godot/imported/benchCushion.obj-ce3b162e4f4412064703f0a16f602a38.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

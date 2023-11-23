@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b6g7y7v7w8djw"
+path="res://.godot/imported/floorCornerRound.obj-5ea64060c4c2c0379fc16341121c4285.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floorCornerRound.obj-5ea64060c4c2c0379fc16341121c4285.mesh"]
+
+source_file="res://assets/models/OBJ format/floorCornerRound.obj"
+dest_files=["res://.godot/imported/floorCornerRound.obj-5ea64060c4c2c0379fc16341121c4285.mesh", "res://.godot/imported/floorCornerRound.obj-5ea64060c4c2c0379fc16341121c4285.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

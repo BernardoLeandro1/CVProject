@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxyfgptcjtukb"
+path="res://.godot/imported/wallCornerRond.obj-f4ee4f6a48220b689424463799d21528.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallCornerRond.obj-f4ee4f6a48220b689424463799d21528.mesh"]
+
+source_file="res://assets/models/OBJ format/wallCornerRond.obj"
+dest_files=["res://.godot/imported/wallCornerRond.obj-f4ee4f6a48220b689424463799d21528.mesh", "res://.godot/imported/wallCornerRond.obj-f4ee4f6a48220b689424463799d21528.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

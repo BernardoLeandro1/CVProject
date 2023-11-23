@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://e2120ciry3tk"
+path="res://.godot/imported/fries.obj-ef185d2e2ef893e21067fc69f3ea2aec.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fries.obj-ef185d2e2ef893e21067fc69f3ea2aec.mesh"]
+
+source_file="res://assets/models/OBJ format - food/fries.obj"
+dest_files=["res://.godot/imported/fries.obj-ef185d2e2ef893e21067fc69f3ea2aec.mesh", "res://.godot/imported/fries.obj-ef185d2e2ef893e21067fc69f3ea2aec.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

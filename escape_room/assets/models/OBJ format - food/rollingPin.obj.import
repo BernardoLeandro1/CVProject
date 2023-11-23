@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://jbg3v4kgkmlj"
+path="res://.godot/imported/rollingPin.obj-1d2b311806e01356a3d9cd1116b598bf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rollingPin.obj-1d2b311806e01356a3d9cd1116b598bf.mesh"]
+
+source_file="res://assets/models/OBJ format - food/rollingPin.obj"
+dest_files=["res://.godot/imported/rollingPin.obj-1d2b311806e01356a3d9cd1116b598bf.mesh", "res://.godot/imported/rollingPin.obj-1d2b311806e01356a3d9cd1116b598bf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

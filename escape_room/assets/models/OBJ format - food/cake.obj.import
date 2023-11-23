@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bqekg5s7uid4t"
+path="res://.godot/imported/cake.obj-eab02715a61c4c4fe731837c4c9e5545.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cake.obj-eab02715a61c4c4fe731837c4c9e5545.mesh"]
+
+source_file="res://assets/models/OBJ format - food/cake.obj"
+dest_files=["res://.godot/imported/cake.obj-eab02715a61c4c4fe731837c4c9e5545.mesh", "res://.godot/imported/cake.obj-eab02715a61c4c4fe731837c4c9e5545.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

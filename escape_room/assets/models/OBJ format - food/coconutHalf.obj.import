@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8fermfi4yd31"
+path="res://.godot/imported/coconutHalf.obj-8b708f59d1bf0b4011e35f5fd57bb94f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/coconutHalf.obj-8b708f59d1bf0b4011e35f5fd57bb94f.mesh"]
+
+source_file="res://assets/models/OBJ format - food/coconutHalf.obj"
+dest_files=["res://.godot/imported/coconutHalf.obj-8b708f59d1bf0b4011e35f5fd57bb94f.mesh", "res://.godot/imported/coconutHalf.obj-8b708f59d1bf0b4011e35f5fd57bb94f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bhs7wsbsx0nfu"
+path="res://.godot/imported/sodaGlass.obj-2666441dbd57cdf9bfbe4c63336b8234.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sodaGlass.obj-2666441dbd57cdf9bfbe4c63336b8234.mesh"]
+
+source_file="res://assets/models/OBJ format - food/sodaGlass.obj"
+dest_files=["res://.godot/imported/sodaGlass.obj-2666441dbd57cdf9bfbe4c63336b8234.mesh", "res://.godot/imported/sodaGlass.obj-2666441dbd57cdf9bfbe4c63336b8234.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

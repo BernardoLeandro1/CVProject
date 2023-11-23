@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bossqwn3qlroi"
+path="res://.godot/imported/cookingKnifeChopping.obj-7056b78b4fab5edeb9856ae9ef0c82be.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cookingKnifeChopping.obj-7056b78b4fab5edeb9856ae9ef0c82be.mesh"]
+
+source_file="res://assets/models/OBJ format - food/cookingKnifeChopping.obj"
+dest_files=["res://.godot/imported/cookingKnifeChopping.obj-7056b78b4fab5edeb9856ae9ef0c82be.mesh", "res://.godot/imported/cookingKnifeChopping.obj-7056b78b4fab5edeb9856ae9ef0c82be.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cy1dehiphypf2"
+path="res://.godot/imported/lemon.obj-7c0bf0a243f9fa6089008da16ba53c58.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lemon.obj-7c0bf0a243f9fa6089008da16ba53c58.mesh"]
+
+source_file="res://assets/models/OBJ format - food/lemon.obj"
+dest_files=["res://.godot/imported/lemon.obj-7c0bf0a243f9fa6089008da16ba53c58.mesh", "res://.godot/imported/lemon.obj-7c0bf0a243f9fa6089008da16ba53c58.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

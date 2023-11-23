@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cropb2dppt3px"
+path="res://.godot/imported/bookcaseOpen.obj-dc0434c347c8a4042e0bb3bb339dca48.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bookcaseOpen.obj-dc0434c347c8a4042e0bb3bb339dca48.mesh"]
+
+source_file="res://assets/models/OBJ format/bookcaseOpen.obj"
+dest_files=["res://.godot/imported/bookcaseOpen.obj-dc0434c347c8a4042e0bb3bb339dca48.mesh", "res://.godot/imported/bookcaseOpen.obj-dc0434c347c8a4042e0bb3bb339dca48.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

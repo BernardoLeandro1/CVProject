@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c3c4ai1nf3oiy"
+path="res://.godot/imported/loungeSofaLong.obj-792d7512b0294b31d5e0dbe97d9b33e9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/loungeSofaLong.obj-792d7512b0294b31d5e0dbe97d9b33e9.mesh"]
+
+source_file="res://assets/models/OBJ format/loungeSofaLong.obj"
+dest_files=["res://.godot/imported/loungeSofaLong.obj-792d7512b0294b31d5e0dbe97d9b33e9.mesh", "res://.godot/imported/loungeSofaLong.obj-792d7512b0294b31d5e0dbe97d9b33e9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
