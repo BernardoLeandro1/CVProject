@@ -653,7 +653,6 @@ omni_range = 132.452
 
 [node name="CelingFan2" type="RigidBody3D" parent="kitchen"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0212944, 4.64462, -0.404336)
-visible = false
 gravity_scale = 0.0
 
 [node name="CeilingFan" type="MeshInstance3D" parent="kitchen/CelingFan2"]
@@ -1190,7 +1189,7 @@ environment = SubResource("Environment_smxf5")
 transform = Transform3D(-1.31134e-07, 0, 3, 0, 3, 0, -3, 0, -1.31134e-07, -91.311, -1.85, -19.157)
 
 [node name="loungeSofa" parent="LivingRoom" instance=ExtResource("45_g5rn4")]
-transform = Transform3D(0.0124267, 0, 1.99996, 0, 2, 0, -1.99996, 0, 0.0124267, -6.50341, 0.529668, 35.3854)
+transform = Transform3D(0.0124267, 0, 1.99996, 0, 2, 0, -1.99996, 0, 0.0124267, -6.50341, 0.415435, 35.3854)
 
 [node name="wall3" parent="LivingRoom" instance=ExtResource("46_0n5wa")]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, -6.51926e-09, 0, 6.51926e-09, 1.5, -7.80494, 0.508669, 36.3523)
@@ -1256,7 +1255,7 @@ transform = Transform3D(5.23269e-05, 0, -1.5, -4.37722e-08, 1.5, -1.42109e-12, 1
 transform = Transform3D(5.23269e-05, 0, -1.5, -4.37722e-08, 1.5, -1.47793e-12, 1.5, 4.37722e-08, 5.2327e-05, -3.49986, 0.50974, 34.8352)
 
 [node name="TVandCabinet" parent="LivingRoom" instance=ExtResource("47_ix526")]
-transform = Transform3D(-0.00239114, 0, -0.999997, -1.49012e-08, 1, 1.27329e-11, 0.999997, 0, -0.00239114, -4.06349, 0.750003, 33.9578)
+transform = Transform3D(-0.00239114, 0, -0.999997, -1.49012e-08, 1, 1.27329e-11, 0.999997, 0, -0.00239114, -4.06349, 0.63577, 33.9578)
 
 [node name="doorway" type="StaticBody3D" parent="LivingRoom" groups=["interactable"]]
 transform = Transform3D(1.5, -1.05879e-22, 0, 0, 1.5, -2.70084e-08, 0, 2.70084e-08, 1.5, -6.04208, 0.505537, 31.9794)
@@ -1297,30 +1296,30 @@ libraries = {
 }
 
 [node name="rugRectangle" parent="LivingRoom" instance=ExtResource("49_ufnkw")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, -5.55112e-17, -1, 0, -4.37114e-08, -5.00203, 0.749817, 35.2647)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, -5.55112e-17, -1, 0, -4.37114e-08, -5.00203, 0.635584, 35.2647)
 
 [node name="loungeChairRelax" parent="LivingRoom" instance=ExtResource("50_ai4qs")]
-transform = Transform3D(0.573577, 0, 0.819152, 0, 1, -2.32831e-09, -0.819152, 0, 0.573576, -6.00786, 0.747121, 33.1292)
+transform = Transform3D(0.573577, 0, 0.819152, 0, 1, -2.32831e-09, -0.819152, 0, 0.573576, -6.00786, 0.632888, 33.1292)
 
 [node name="lampSquareFloor" parent="LivingRoom" instance=ExtResource("51_sbase")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01369, 0.75, 35.9611)
+transform = Transform3D(1, 0, 7.10543e-15, 0, 1, 0, -7.10543e-15, 0, 1, -7.01369, 0.635767, 35.9611)
 
 [node name="loungeChair" parent="LivingRoom" instance=ExtResource("52_bj5aw")]
-transform = Transform3D(-0.573576, 0, 0.819152, 9.31323e-10, 1, 1.86265e-09, -0.819152, 0, -0.573577, -5.95126, 0.772786, 35.8999)
+transform = Transform3D(-0.573576, 0, 0.819152, 9.31323e-10, 1, 1.86265e-09, -0.819152, 0, -0.573577, -5.95126, 0.658553, 35.8999)
 
 [node name="loungeChair" parent="LivingRoom/loungeChair" instance=ExtResource("53_kx21h")]
 transform = Transform3D(1, -9.31323e-10, 0, 9.31323e-10, 1, 0, -5.96046e-08, -4.65661e-10, 1, 0, 0, 0)
 
 [node name="tableCrossCloth" parent="LivingRoom" instance=ExtResource("54_8qc3q")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.27675, 0.750183, 33.3613)
+transform = Transform3D(1, 0, 7.10543e-15, 0, 1, 0, -7.10543e-15, 0, 1, -7.27675, 0.63595, 33.3613)
 
 [node name="tableCrossCloth" parent="LivingRoom/tableCrossCloth" instance=ExtResource("55_2e6fd")]
 
 [node name="speaker" parent="LivingRoom" instance=ExtResource("56_ksv4g")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, -2.77556e-17, 1, 0, -4.37114e-08, -3.97971, 0.749817, 34.8318)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, -2.77556e-17, 1, 0, -4.37114e-08, -3.97971, 0.635584, 34.8318)
 
 [node name="speaker2" parent="LivingRoom" instance=ExtResource("56_ksv4g")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, -2.77556e-17, 1, 0, -4.37114e-08, -3.97802, 0.75, 33.7175)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, -2.77556e-17, 1, 0, -4.37114e-08, -3.97802, 0.635767, 33.7175)
 
 [node name="painting_stand_with_painting" parent="LivingRoom" instance=ExtResource("57_2piy8")]
 transform = Transform3D(-0.15, -3.25851e-10, -0.259808, -2.32831e-10, 0.3, -1.16415e-10, 0.259808, 2.32831e-10, -0.15, -4.06633, 0.775908, 35.9129)
@@ -1337,15 +1336,15 @@ transform = Transform3D(0.01, 0, 2.498e-16, 0, 0.01, 0, -2.498e-16, 0, 0.01, -7.
 transform = Transform3D(0.5, 1.05879e-22, 3.55271e-15, 0, 0.5, -1.2972e-08, -3.55271e-15, 1.2972e-08, 0.5, -5.56613, 1.47306, 36.2375)
 
 [node name="tableCoffeeGlass" parent="LivingRoom" instance=ExtResource("62_5xn1g")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, -5.55112e-17, -1, 0, -4.37114e-08, -5.34246, 0.750001, 34.3517)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, -5.55112e-17, -1, 0, -4.37114e-08, -5.34246, 0.635768, 34.3517)
 
 [node name="tableCoffeeGlass" parent="LivingRoom/tableCoffeeGlass" instance=ExtResource("63_nn6rq")]
 
 [node name="bookcaseClosedWide" parent="LivingRoom" instance=ExtResource("64_hyyf2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5549, 0.805401, 32.2618)
+transform = Transform3D(1, 0, 7.10543e-15, 0, 1, 0, -7.10543e-15, 0, 1, -4.5549, 0.61761, 32.2618)
 
 [node name="bookcaseClosedWide2" parent="LivingRoom" instance=ExtResource("64_hyyf2")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, -5.55112e-17, 1, 0, -4.37114e-08, -3.7814, 0.805401, 32.2773)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, -5.55112e-17, 1, 0, -4.37114e-08, -3.7814, 0.61761, 32.2773)
 
 [node name="basement" type="Node3D" parent="."]
 
@@ -1495,7 +1494,7 @@ mesh = SubResource("ArrayMesh_oxhlh")
 skeleton = NodePath("")
 
 [node name="player" type="CharacterBody3D" parent="."]
-transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -2.26176, -4.35294, 9.52739)
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -2.26176, 0.13883, 1.87294)
 script = ExtResource("1_go1eq")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="player"]
