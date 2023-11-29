@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://0amem6lg0el"]
+[gd_scene load_steps=16 format=3 uid="uid://0amem6lg0el"]
 
 [ext_resource type="PackedScene" uid="uid://bq0nnonddan8f" path="res://furniture/GLTF format/televisionModern.glb" id="2_071xv"]
 
@@ -94,6 +94,9 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_2yicb")
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_cvkfg"]
+size = Vector3(0.474524, 0.226706, 0.128338)
+
 [sub_resource type="ArrayMesh" id="ArrayMesh_p6ywv"]
 _surfaces = [{
 "aabb": AABB(-0.36, 0, -0.01, 0.36, 0.19, 0.04001),
@@ -150,6 +153,66 @@ size = Vector3(0.8, 0.3, 0.25)
 [sub_resource type="BoxShape3D" id="BoxShape3D_2c26n"]
 size = Vector3(0.7, 0.4, 0.1)
 
+[sub_resource type="Animation" id="Animation_cyxa7"]
+resource_name = "open_doors"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("cabinetTelevisionDoors(Clone)/doorLeft:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, -1.5708, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("cabinetTelevisionDoors(Clone)/doorRight:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 1.5708, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_1l5ju"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("cabinetTelevisionDoors(Clone)/doorLeft:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("cabinetTelevisionDoors(Clone)/doorRight:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lanep"]
+_data = {
+"RESET": SubResource("Animation_1l5ju"),
+"open_doors": SubResource("Animation_cyxa7")
+}
+
 [node name="TVandCabinet" type="StaticBody3D"]
 
 [node name="cabinetTelevisionDoors(Clone)" type="MeshInstance3D" parent="."]
@@ -161,10 +224,22 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.04, 0.08, -0.02)
 mesh = SubResource("ArrayMesh_vujmv")
 skeleton = NodePath("")
 
+[node name="StaticBody3D" type="StaticBody3D" parent="cabinetTelevisionDoors(Clone)/doorLeft"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="cabinetTelevisionDoors(Clone)/doorLeft/StaticBody3D"]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.2, 0.171825, 0.0930009, -0.00134341)
+shape = SubResource("BoxShape3D_cvkfg")
+
 [node name="doorRight" type="MeshInstance3D" parent="cabinetTelevisionDoors(Clone)"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.76, 0.08, -0.02)
 mesh = SubResource("ArrayMesh_u6prk")
 skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="cabinetTelevisionDoors(Clone)/doorRight"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="cabinetTelevisionDoors(Clone)/doorRight/StaticBody3D"]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.2, -0.172429, 0.0930009, -0.00134343)
+shape = SubResource("BoxShape3D_cvkfg")
 
 [node name="televisionModern" parent="." instance=ExtResource("2_071xv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.391597, 0.314027, -0.124028)
@@ -176,3 +251,8 @@ shape = SubResource("BoxShape3D_tcgqg")
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.399559, 0.568261, -0.128693)
 shape = SubResource("BoxShape3D_2c26n")
+
+[node name="open_doors" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_lanep")
+}

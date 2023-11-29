@@ -1,7 +1,8 @@
-[gd_scene load_steps=123 format=3 uid="uid://56ea856liqlk"]
+[gd_scene load_steps=131 format=3 uid="uid://56ea856liqlk"]
 
 [ext_resource type="Texture2D" uid="uid://nn2ro1om2vwq" path="res://assets/textures/dev/grids/Floor/1-Classic-Floor-Tile-Background-Texture-copy.jpg" id="1_g0tog"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_go1eq"]
+[ext_resource type="Script" path="res://CelingFan.gd" id="2_chbwt"]
 [ext_resource type="Texture2D" uid="uid://bomdya31b0abn" path="res://assets/hdris/kloofendal_48d_partly_cloudy_puresky_2k.hdr" id="2_fkov3"]
 [ext_resource type="Texture2D" uid="uid://soymm8to4pla" path="res://assets/textures/dev/grids/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg" id="2_lciap"]
 [ext_resource type="ArrayMesh" uid="uid://du5nf87vgt2c8" path="res://assets/models/OBJ format/tableCloth.obj" id="4_p6ggv"]
@@ -44,27 +45,28 @@
 [ext_resource type="ArrayMesh" uid="uid://doclkn2ol8xdo" path="res://assets/models/OBJ format/trashcan.obj" id="41_sr2t0"]
 [ext_resource type="ArrayMesh" uid="uid://sivteyjykb2y" path="res://assets/models/OBJ format - food/cocktail.obj" id="42_8jbjj"]
 [ext_resource type="ArrayMesh" uid="uid://drmoymvtunbwg" path="res://assets/models/OBJ format - food/coconut.obj" id="43_4jqdx"]
-[ext_resource type="PackedScene" path="res://lounge_sofa.tscn" id="45_g5rn4"]
+[ext_resource type="PackedScene" uid="uid://b58yhsk0omcbv" path="res://lounge_sofa.tscn" id="45_g5rn4"]
 [ext_resource type="PackedScene" uid="uid://cvgcysvto4ax8" path="res://wall.tscn" id="46_0n5wa"]
-[ext_resource type="PackedScene" path="res://tv_cabinet.tscn" id="47_ix526"]
+[ext_resource type="Script" path="res://cabinet.gd" id="46_kewjc"]
+[ext_resource type="PackedScene" uid="uid://0amem6lg0el" path="res://tv_cabinet.tscn" id="47_ix526"]
 [ext_resource type="Script" path="res://door.gd" id="48_cx0oc"]
 [ext_resource type="PackedScene" uid="uid://ltnoxpfkgxqd" path="res://furniture/GLTF format/rugRectangle.glb" id="49_ufnkw"]
-[ext_resource type="PackedScene" path="res://lounge_chair_relax.tscn" id="50_ai4qs"]
+[ext_resource type="PackedScene" uid="uid://555q465f1ubq" path="res://lounge_chair_relax.tscn" id="50_ai4qs"]
 [ext_resource type="PackedScene" uid="uid://vhpj87u6fn2o" path="res://furniture/GLTF format/lampSquareFloor.glb" id="51_sbase"]
 [ext_resource type="PackedScene" uid="uid://b1rpsibmlisqm" path="res://furniture/GLTF format/loungeChair.glb" id="52_bj5aw"]
-[ext_resource type="PackedScene" path="res://lounge_chair.tscn" id="53_kx21h"]
+[ext_resource type="PackedScene" uid="uid://lpjpir8ptiqm" path="res://lounge_chair.tscn" id="53_kx21h"]
 [ext_resource type="PackedScene" uid="uid://cdg6rvai0o3d8" path="res://furniture/GLTF format/tableCrossCloth.glb" id="54_8qc3q"]
-[ext_resource type="PackedScene" path="res://table_cross_cloth.tscn" id="55_2e6fd"]
-[ext_resource type="PackedScene" path="res://speaker.tscn" id="56_ksv4g"]
+[ext_resource type="PackedScene" uid="uid://chj562cc1saxs" path="res://table_cross_cloth.tscn" id="55_2e6fd"]
+[ext_resource type="PackedScene" uid="uid://wa0cd6blcquk" path="res://speaker.tscn" id="56_ksv4g"]
 [ext_resource type="PackedScene" uid="uid://depd6vwjxdyi6" path="res://furniture/painting_stand_with_painting.glb" id="57_2piy8"]
-[ext_resource type="PackedScene" path="res://painting_stand_with_painting.tscn" id="58_wxayv"]
+[ext_resource type="PackedScene" uid="uid://ieypjg484tcy" path="res://painting_stand_with_painting.tscn" id="58_wxayv"]
 [ext_resource type="PackedScene" uid="uid://sqgi72547pb7" path="res://furniture/painting_by_zdzislaw_beksinski_2.glb" id="59_lt1yq"]
 [ext_resource type="PackedScene" uid="uid://xlh2rk8mxo50" path="res://furniture/painting_by_zdzislaw_beksinski_4.glb" id="60_2s16b"]
 [ext_resource type="PackedScene" uid="uid://dbt7gf6tcworh" path="res://furniture/painting_lowpoly.glb" id="61_g8adt"]
 [ext_resource type="PackedScene" uid="uid://qufxyb1rd3g4" path="res://furniture/GLTF format/tableCoffeeGlass.glb" id="62_5xn1g"]
-[ext_resource type="PackedScene" path="res://table_coffee_glass.tscn" id="63_nn6rq"]
+[ext_resource type="PackedScene" uid="uid://ctmahdtipdsgk" path="res://table_coffee_glass.tscn" id="63_nn6rq"]
 [ext_resource type="Texture2D" uid="uid://csgdojcidjfaa" path="res://assets/textures/dev/grids/BrickSmallBrown0456_3_350.jpg" id="64_htqy2"]
-[ext_resource type="PackedScene" path="res://bookcase_closed_wide.tscn" id="64_hyyf2"]
+[ext_resource type="PackedScene" uid="uid://5qd0e2u0dnqa" path="res://bookcase_closed_wide.tscn" id="64_hyyf2"]
 [ext_resource type="ArrayMesh" uid="uid://c030s3b3x46vr" path="res://assets/models/OBJ format/stairsOpenSingle.obj" id="65_2jv66"]
 [ext_resource type="Texture2D" uid="uid://d0aqi04hcihvo" path="res://assets/models/Hatch/textures/DefaultMaterial_baseColor.jpeg" id="67_g4rw5"]
 [ext_resource type="Texture2D" uid="uid://bfr021nvdpnfn" path="res://assets/models/Hatch/textures/DefaultMaterial_metallicRoughness.png" id="68_kc4a7"]
@@ -80,6 +82,78 @@ albedo_texture = ExtResource("2_lciap")
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_8bsvm"]
 radius = 0.305464
+
+[sub_resource type="Animation" id="Animation_gh53e"]
+resource_name = "rotate_fan"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CelingFan/CeilingFan:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.5, 0.7, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 1.5708, 0), Vector3(0, 3.14159, 0), Vector3(0, 4.71239, 0), Vector3(0, 6.28319, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_0grgo"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CelingFan/CeilingFan:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_k51d8"]
+_data = {
+"RESET": SubResource("Animation_0grgo"),
+"rotate_fan": SubResource("Animation_gh53e")
+}
+
+[sub_resource type="Animation" id="Animation_81mxt"]
+resource_name = "rotate_fan"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CeilingFan:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.5, 0.7, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 1.5708, 0), Vector3(0, 3.14159, 0), Vector3(0, 4.71239, 0), Vector3(0, 6.28319, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_1af8g"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CeilingFan:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jg5af"]
+_data = {
+"RESET": SubResource("Animation_1af8g"),
+"rotate_fan": SubResource("Animation_81mxt")
+}
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_0t0l2"]
 size = Vector3(4.2756, 1.59685, 2.28528)
@@ -635,6 +709,7 @@ material = SubResource("StandardMaterial3D_pr0is")
 [node name="CelingFan" type="RigidBody3D" parent="kitchen"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.36151, 4.64462, -5.0707)
 gravity_scale = 0.0
+script = ExtResource("2_chbwt")
 
 [node name="CeilingFan" type="MeshInstance3D" parent="kitchen/CelingFan"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
@@ -651,9 +726,16 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.00035, -0.0052309)
 light_color = Color(1, 1, 0.619608, 1)
 omni_range = 132.452
 
+[node name="ceiling_fan" type="AnimationPlayer" parent="kitchen/CelingFan"]
+root_node = NodePath("../..")
+libraries = {
+"": SubResource("AnimationLibrary_k51d8")
+}
+
 [node name="CelingFan2" type="RigidBody3D" parent="kitchen"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0212944, 4.64462, -0.404336)
 gravity_scale = 0.0
+script = ExtResource("2_chbwt")
 
 [node name="CeilingFan" type="MeshInstance3D" parent="kitchen/CelingFan2"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
@@ -669,6 +751,11 @@ disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.00035, -0.0052309)
 light_color = Color(1, 1, 0.619608, 1)
 omni_range = 132.452
+
+[node name="ceiling_fan" type="AnimationPlayer" parent="kitchen/CelingFan2"]
+libraries = {
+"": SubResource("AnimationLibrary_jg5af")
+}
 
 [node name="table" type="RigidBody3D" parent="kitchen"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0921061, 0, -4.4969)
@@ -1256,6 +1343,7 @@ transform = Transform3D(5.23269e-05, 0, -1.5, -4.37722e-08, 1.5, -1.47793e-12, 1
 
 [node name="TVandCabinet" parent="LivingRoom" instance=ExtResource("47_ix526")]
 transform = Transform3D(-0.00239114, 0, -0.999997, -1.49012e-08, 1, 1.27329e-11, 0.999997, 0, -0.00239114, -4.06349, 0.63577, 33.9578)
+script = ExtResource("46_kewjc")
 
 [node name="doorway" type="StaticBody3D" parent="LivingRoom" groups=["interactable"]]
 transform = Transform3D(1.5, -1.05879e-22, 0, 0, 1.5, -2.70084e-08, 0, 2.70084e-08, 1.5, -6.04208, 0.505537, 31.9794)
