@@ -5,13 +5,21 @@ extends CharacterBody3D
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 const mouse_sens = 0.4
-
+@onready var onZone := $head/interaction
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
+func _process(delta):
+	var collider = onZone.get_collider()
+	if collider != null:
+		if Input.is_action_just_pressed("ui_interact") and collider.get_script() != null:
+			collider.interact()
+
+			#.get_script().interact()
+		#$"../kitchen/kitchenCabinetUpperDouble2"
 func _input(event):
 	if event is InputEventMouseMotion:
 		rotate_y(deg_to_rad(-event.relative.x * mouse_sens))

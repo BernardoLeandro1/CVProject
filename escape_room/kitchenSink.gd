@@ -2,20 +2,16 @@ extends StaticBody3D
 
 
 var open = false
-var in_animation = false
 @onready var player := $"../../player"
-@onready var d := $dooropen
-@onready var doorway := $"."
+@onready var anim := $sink_door
+@onready var door := $"kitchenSink(Clone)/door"
+
+
 
 func interact():
 	if !open:
-		d.play("Open")
+		anim.play("open_sink")
 		open = true
 	elif open:
-		d.play_backwards("Open")
+		anim.play_backwards("open_sink")
 		open = false
-
-
-
-
-
