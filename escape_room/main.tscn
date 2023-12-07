@@ -1,4 +1,4 @@
-[gd_scene load_steps=111 format=3 uid="uid://56ea856liqlk"]
+[gd_scene load_steps=112 format=3 uid="uid://cfjkfvrj3mpyd"]
 
 [ext_resource type="Texture2D" uid="uid://nn2ro1om2vwq" path="res://assets/textures/dev/grids/Floor/1-Classic-Floor-Tile-Background-Texture-copy.jpg" id="1_g0tog"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_go1eq"]
@@ -68,6 +68,7 @@
 [ext_resource type="Texture2D" uid="uid://b2871yxunm1fn" path="res://assets/models/Hatch/textures/DefaultMaterial_normal.png" id="69_xk4ym"]
 [ext_resource type="PackedScene" uid="uid://d283ujmqqqxx6" path="res://kitchen_cabinet_corner_inner.tscn" id="71_seicl"]
 [ext_resource type="PackedScene" uid="uid://dye7baulky34k" path="res://kitchen_sink.tscn" id="72_mwgs6"]
+[ext_resource type="PackedScene" uid="uid://b11a31umuw3u7" path="res://bedroom.tscn" id="72_nvqwj"]
 [ext_resource type="PackedScene" uid="uid://dgeqjt78vheoc" path="res://kitchen_cabinet_upper_double.tscn" id="73_ayn7r"]
 [ext_resource type="PackedScene" uid="uid://6xdt7urebc6f" path="res://kitchen_microwave.tscn" id="73_c3ep1"]
 [ext_resource type="PackedScene" uid="uid://b3oa4xjdh6iuq" path="res://kitchen_fridge_large.tscn" id="73_mj8tw"]
@@ -1158,7 +1159,7 @@ mesh = SubResource("ArrayMesh_oxhlh")
 skeleton = NodePath("")
 
 [node name="player" type="CharacterBody3D" parent="."]
-transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -2.26176, 0.13883, 1.87294)
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 22.4601, 0.497514, 1.56536)
 script = ExtResource("1_go1eq")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="player"]
@@ -1182,3 +1183,6 @@ material = SubResource("StandardMaterial3D_i3wt8")
 
 [node name="kitchenCabinetCornerInner" parent="." instance=ExtResource("71_seicl")]
 transform = Transform3D(-1.74846e-07, 0, 4, 0, 4, 0, -4, 0, -1.74846e-07, -7.5909, 0, -7.65852)
+
+[node name="Bedroom" parent="." instance=ExtResource("72_nvqwj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.412272, -0.25, 0)

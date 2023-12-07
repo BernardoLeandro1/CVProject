@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b03qi2tgytsvr"]
+
+[ext_resource type="PackedScene" uid="uid://5yv56inkwn2w" path="res://assets/models/GLTF format/lampWall.glb" id="1_ikx18"]
+
+[node name="lampWall" instance=ExtResource("1_ikx18")]
+
+[node name="lampWall(Clone)" parent="." index="0"]
+transparency = 0.6
