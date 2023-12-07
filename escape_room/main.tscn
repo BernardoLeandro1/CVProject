@@ -187,9 +187,11 @@ panorama = ExtResource("2_fkov3")
 sky_material = SubResource("PanoramaSkyMaterial_4f5fp")
 
 [sub_resource type="Environment" id="Environment_smxf5"]
-background_mode = 2
+background_mode = 5
+background_color = Color(0.188235, 0.188235, 0.188235, 1)
 background_energy_multiplier = 0.1
 sky = SubResource("Sky_v3vak")
+ambient_light_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
 tonemap_mode = 2
 glow_enabled = true
 
@@ -443,7 +445,8 @@ disabled = true
 [node name="OmniLight3D" type="OmniLight3D" parent="kitchen/CelingFan"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.00035, -0.0052309)
 light_color = Color(1, 1, 0.619608, 1)
-omni_range = 132.452
+shadow_enabled = true
+omni_range = 15.0
 
 [node name="ceiling_fan" type="AnimationPlayer" parent="kitchen/CelingFan"]
 root_node = NodePath("../..")
@@ -467,9 +470,10 @@ shape = SubResource("SphereShape3D_8bsvm")
 disabled = true
 
 [node name="OmniLight3D" type="OmniLight3D" parent="kitchen/CelingFan2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.00035, -0.0052309)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.06192, -0.969853, 0.106228)
 light_color = Color(1, 1, 0.619608, 1)
-omni_range = 132.452
+shadow_enabled = true
+omni_range = 15.0
 
 [node name="ceiling_fan" type="AnimationPlayer" parent="kitchen/CelingFan2"]
 libraries = {
@@ -561,6 +565,12 @@ skeleton = NodePath("../../..")
 
 [node name="stool" type="RigidBody3D" parent="kitchen"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.87125, 0, -2.11067)
+disable_mode = 2
+input_capture_on_drag = true
+continuous_cd = true
+max_contacts_reported = 1000
+contact_monitor = true
+can_sleep = false
 
 [node name="StoolBar" type="MeshInstance3D" parent="kitchen/stool"]
 transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
@@ -880,6 +890,7 @@ transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -4.17233, 0, -7.71211)
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -7.589, 0, -7.712)
 
 [node name="env" type="Node3D" parent="."]
+visible = false
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="env"]
 environment = SubResource("Environment_smxf5")
@@ -1010,6 +1021,13 @@ transform = Transform3D(1, 0, 7.10543e-15, 0, 1, 0, -7.10543e-15, 0, 1, -4.5549,
 
 [node name="bookcaseClosedWide2" parent="LivingRoom" instance=ExtResource("64_hyyf2")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, -5.55112e-17, 1, 0, -4.37114e-08, -3.7814, 0.61761, 32.2773)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="LivingRoom"]
+transform = Transform3D(0.333333, 0, 1.77636e-15, 0, 0.333333, 0, -1.77636e-15, 0, 0.333333, -4.30697, 2.07327, 33.2174)
+light_energy = 0.05
+shadow_enabled = true
+omni_range = 8.9495
+omni_attenuation = 2.91039e-05
 
 [node name="basement" type="Node3D" parent="."]
 
@@ -1159,7 +1177,7 @@ mesh = SubResource("ArrayMesh_oxhlh")
 skeleton = NodePath("")
 
 [node name="player" type="CharacterBody3D" parent="."]
-transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 22.4601, 0.497514, 1.56536)
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0.387903, 0.497514, 1.56536)
 script = ExtResource("1_go1eq")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="player"]

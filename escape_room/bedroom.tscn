@@ -194,6 +194,7 @@ shape = SubResource("BoxShape3D_jngpb")
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.655, 2.88199, -7.02375)
 light_color = Color(1, 1, 0.815686, 1)
+shadow_enabled = true
 
 [node name="lampWall" parent="." instance=ExtResource("14_nkwyy")]
 transform = Transform3D(-4, 0, -3.49691e-07, 0, 4, 0, 3.49691e-07, 0, -4, 27.4159, 2.81329, 2.37736)
@@ -213,6 +214,7 @@ shape = SubResource("BoxShape3D_au4yi")
 transform = Transform3D(-0.25, 0, -2.18557e-08, 0, 0.25, 0, 2.18557e-08, 0, -0.25, 0.00584602, 0.0955306, 0.0294584)
 light_color = Color(1, 1, 0.815686, 1)
 light_energy = 2.131
+shadow_enabled = true
 spot_range = 12.533
 spot_attenuation = 1.31951
 spot_angle = 37.73
