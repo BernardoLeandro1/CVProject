@@ -438,7 +438,7 @@ mesh = ExtResource("12_egnqs")
 skeleton = NodePath("../../..")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="kitchen/CelingFan"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.404955, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.05447e-05, -0.404955, 0)
 shape = SubResource("SphereShape3D_8bsvm")
 disabled = true
 
@@ -753,7 +753,7 @@ mesh = ExtResource("26_0ns5o")
 skeleton = NodePath("../..")
 
 [node name="KitchenCoffeeMachine" type="MeshInstance3D" parent="kitchen"]
-transform = Transform3D(-3.5, 0, -5.28485e-07, 0, 3.5, 0, 5.28485e-07, 0, -3.5, -5.14557, 1.68203, -8.03452)
+transform = Transform3D(-3.5, 0, -5.28485e-07, 0, 3.5, 0, 5.28485e-07, 0, -3.5, -5.14557, 1.68203, -8.07783)
 mesh = ExtResource("27_3ghsc")
 skeleton = NodePath("../..")
 
