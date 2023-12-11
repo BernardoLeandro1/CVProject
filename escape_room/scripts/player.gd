@@ -1,19 +1,37 @@
 extends CharacterBody3D
-@onready var head = $head
 
 
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 const mouse_sens = 0.4
-@onready var onZone := $head/interaction
+
+const pickable_objects = ["stool", "apple"]
+
+@onready var head = $head
+@onready var camera := $head/Camera3D
+@onready var interaction := $head/Camera3D/interaction
+@onready var hand := $head/Camera3D/hand
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
+var picked_object
+var pull_power = 4
+
+
+
+func pick_object():
+	var collider = interaction.get_collider()
+	if collider != null and collider.name in pickable_objects:
+		picked_object = collider
+		print(collider.name)
+
+func drop_object():
+	if picked_object != null:
+		picked_object = null
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-
 func _process(delta):
-	var collider = onZone.get_collider()
+	var collider = interaction.get_collider()
 	if collider != null:
 		if Input.is_action_just_pressed("ui_interact") and collider.get_script() != null:
 			collider.interact()
@@ -36,6 +54,16 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 
+	# Pick up object
+	if Input.is_action_just_pressed("pick_up"):
+		if picked_object == null:
+			pick_object()
+		else:
+			drop_object()
+
+	
+
+
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var input_dir = Input.get_vector("left", "right", "forward", "backward")
@@ -46,5 +74,17 @@ func _physics_process(delta):
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
+
+	if picked_object != null:
+		var a = picked_object.global_transform.origin
+		var b = hand.global_transform.origin
+		picked_object.set_linear_velocity((b-a)*pull_power)
+	
+
+
+
+
+	
+
 
 	move_and_slide()
