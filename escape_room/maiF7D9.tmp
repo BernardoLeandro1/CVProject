@@ -45,7 +45,6 @@
 [ext_resource type="PackedScene" uid="uid://dpfydj4b0c7t0" path="res://kitchen_stove.tscn" id="43_xjc3b"]
 [ext_resource type="PackedScene" uid="uid://b58yhsk0omcbv" path="res://lounge_sofa.tscn" id="45_g5rn4"]
 [ext_resource type="PackedScene" uid="uid://cvgcysvto4ax8" path="res://wall.tscn" id="46_0n5wa"]
-[ext_resource type="Material" uid="uid://kpysag1unbpf" path="res://assets/particle_materials/white.tres" id="46_k1gcv"]
 [ext_resource type="Script" path="res://cabinet.gd" id="46_kewjc"]
 [ext_resource type="PackedScene" uid="uid://0amem6lg0el" path="res://tv_cabinet.tscn" id="47_ix526"]
 [ext_resource type="PackedScene" uid="uid://b7w0pq6fuij7c" path="res://doorway.tscn" id="49_5bkvx"]
@@ -242,6 +241,24 @@ material = SubResource("StandardMaterial3D_ykh6j")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_okwku"]
 size = Vector3(2.59038, 3.82333, 0.325624)
+
+[sub_resource type="Gradient" id="Gradient_i0sxi"]
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_3b0xl"]
+gradient = SubResource("Gradient_i0sxi")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_ci1v0"]
+lifetime_randomness = 1.0
+emission_shape = 3
+emission_box_extents = Vector3(0.1, 0.1, 0.1)
+direction = Vector3(0, 1, 0)
+spread = 0.0
+gravity = Vector3(0, 0, 0)
+initial_velocity_max = 4.0
+tangential_accel_max = 2.0
+scale_min = 0.0
+scale_max = 0.1
+color_ramp = SubResource("GradientTexture1D_3b0xl")
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_4f5fp"]
 panorama = ExtResource("2_fkov3")
@@ -451,13 +468,6 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_yfbht")
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_c0cng"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_83m8j"]
-transparency = 1
-shading_mode = 0
-
-[sub_resource type="SphereMesh" id="SphereMesh_b6bl5"]
-material = SubResource("StandardMaterial3D_83m8j")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i3wt8"]
 albedo_texture = ExtResource("1_g0tog")
@@ -1088,7 +1098,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.97134, 1.75806, -8.43476)
 [node name="GPUParticles3D" type="GPUParticles3D" parent="kitchen/pot_steam"]
 amount = 10
 visibility_aabb = AABB(-0.289441, -0.193794, -0.255493, 0.578882, 1.71351, 0.510986)
-process_material = ExtResource("46_k1gcv")
+process_material = SubResource("ParticleProcessMaterial_ci1v0")
 draw_pass_1 = SubResource("SphereMesh_xacsg")
 
 [node name="env" type="Node3D" parent="."]
@@ -1397,10 +1407,6 @@ target_position = Vector3(0, 0, -2)
 
 [node name="hand" type="Marker3D" parent="player/head/Camera3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.6657)
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="player/head/Camera3D"]
-transform = Transform3D(0.005, 0, 0, 0, 0.005, 0, 0, 0, 0.005, 0, 0, -0.776777)
-mesh = SubResource("SphereMesh_b6bl5")
 
 [node name="floor" type="CSGBox3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.21712, -0.5, -3.04197)

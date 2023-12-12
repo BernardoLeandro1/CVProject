@@ -5,7 +5,6 @@ const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 const mouse_sens = 0.4
 
-const pickable_objects = ["stool", "apple"]
 
 @onready var head = $head
 @onready var camera := $head/Camera3D
@@ -14,7 +13,7 @@ const pickable_objects = ["stool", "apple"]
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 var picked_object
-var pull_power = 4
+var pull_power = 10
 
 
 
@@ -79,12 +78,5 @@ func _physics_process(delta):
 		var a = picked_object.global_transform.origin
 		var b = hand.global_transform.origin
 		picked_object.set_linear_velocity((b-a)*pull_power)
-	
-
-
-
-
-	
-
 
 	move_and_slide()
