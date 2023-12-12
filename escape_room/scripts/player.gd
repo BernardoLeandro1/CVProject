@@ -20,7 +20,7 @@ var pull_power = 4
 
 func pick_object():
 	var collider = interaction.get_collider()
-	if collider != null and collider.name in pickable_objects:
+	if collider != null and collider.is_in_group("interactable"):
 		picked_object = collider
 		print(collider.name)
 
