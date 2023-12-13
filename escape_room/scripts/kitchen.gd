@@ -30,7 +30,7 @@ func _process(delta):
 	var coconut_pos = coconut.get_global_transform().origin
 	
 	#get the current position of the pot
-	var pot = get_node("RigidBody3D/Pot")
+	var pot = get_node("pot")
 	var pot_pos = pot.get_global_transform().origin
 	
 	var apple_inside
@@ -38,9 +38,9 @@ func _process(delta):
 	var coconut_inside
 
 	#check if they're inside the pot
-	apple_inside = pot_pos.x - 0.5 <= apple_pos.x and apple_pos.x < pot_pos.x + 0.5 and pot_pos.y - 0.5 <= apple_pos.y and apple_pos.y < pot_pos.y + 0.5 and pot_pos.z - 0.5 <= apple_pos.z and apple_pos.z < pot_pos.z + 0.5
-	pineapple_inside = pot_pos.x - 0.5 <= pineapple_pos.x and pineapple_pos.x < pot_pos.x + 0.5 and pot_pos.y - 0.5 <= pineapple_pos.y and pineapple_pos.y < pot_pos.y + 0.5 and pot_pos.z - 0.5 <= pineapple_pos.z and pineapple_pos.z < pot_pos.z + 0.5
-	coconut_inside = pot_pos.x - 0.5 <= coconut_pos.x and coconut_pos.x < pot_pos.x + 0.5 and pot_pos.y - 0.5 <= coconut_pos.y and coconut_pos.y < pot_pos.y + 0.5 and pot_pos.z - 0.5 <= coconut_pos.z and coconut_pos.z < pot_pos.z + 0.5
+	apple_inside = pot_pos.x - 0.4 <= apple_pos.x and apple_pos.x < pot_pos.x + 0.4 and pot_pos.y - 0.4 <= apple_pos.y and apple_pos.y < pot_pos.y + 0.4 and pot_pos.z - 0.4 <= apple_pos.z and apple_pos.z < pot_pos.z + 0.4
+	pineapple_inside = pot_pos.x - 0.4 <= pineapple_pos.x and pineapple_pos.x < pot_pos.x + 0.4 and pot_pos.y - 0.4 <= pineapple_pos.y and pineapple_pos.y < pot_pos.y + 0.4 and pot_pos.z - 0.4 <= pineapple_pos.z and pineapple_pos.z < pot_pos.z + 0.4
+	coconut_inside = pot_pos.x - 0.4 <= coconut_pos.x and coconut_pos.x < pot_pos.x + 0.4 and pot_pos.y - 0.4 <= coconut_pos.y and coconut_pos.y < pot_pos.y + 0.4 and pot_pos.z - 0.4 <= coconut_pos.z and coconut_pos.z < pot_pos.z + 0.4
 	
 	var ing_count = 0
 	if apple_inside:

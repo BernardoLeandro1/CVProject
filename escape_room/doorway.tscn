@@ -307,7 +307,7 @@ transform = Transform3D(1.2, 0, 0, 0, 1, -1.77636e-15, -1.42109e-14, 1.77636e-15
 shape = SubResource("BoxShape3D_rgf2w")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 4.76456e-22, 2.4869e-14, -4.76456e-22, 1, -7.10543e-15, -2.4869e-14, 7.10543e-15, 1, 0.254432, 0.534432, -0.0334394)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0281953, 0.532745, -0.243789)
 shape = SubResource("BoxShape3D_m0bg7")
 
 [node name="dooropen" type="AnimationPlayer" parent="."]
