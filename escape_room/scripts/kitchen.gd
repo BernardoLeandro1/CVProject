@@ -3,10 +3,8 @@ extends Node3D
 @onready var light1 := $CelingFan/OmniLight3D
 @onready var light2 := $CelingFan2/OmniLight3D
 @onready var steam := $pot_steam/GPUParticles3D
-@onready var fire := $fire
+@onready var fire := $fire/CollisionShape3D
 @onready var green_steam = load("res://assets/particle_materials/green.tres")
-
-
 
 
 
@@ -36,11 +34,23 @@ func _process(delta):
 	var apple_inside
 	var pineapple_inside
 	var coconut_inside
+	
+	# check if player is burning
+	#if fire != null:
+	#	var player_pos = get_node("../player").get_global_transform().origin
+	#	var fire_pos = fire.get_global_transform().origin
+	#	print(player_pos, fire_pos)
+		
+		#var player_inside = fire_pos.x - 1.5 <= player_pos.x and player_pos.x < fire_pos.x + 1.5 and fire_pos.z - 1.5 <= player_pos.z and player_pos.z < fire_pos.z + 1.5
+		#if player_inside:
+			
+		#	get_tree().reload_current_scene()
+		
 
 	#check if they're inside the pot
-	apple_inside = pot_pos.x - 0.4 <= apple_pos.x and apple_pos.x < pot_pos.x + 0.4 and pot_pos.y - 0.4 <= apple_pos.y and apple_pos.y < pot_pos.y + 0.4 and pot_pos.z - 0.4 <= apple_pos.z and apple_pos.z < pot_pos.z + 0.4
-	pineapple_inside = pot_pos.x - 0.4 <= pineapple_pos.x and pineapple_pos.x < pot_pos.x + 0.4 and pot_pos.y - 0.4 <= pineapple_pos.y and pineapple_pos.y < pot_pos.y + 0.4 and pot_pos.z - 0.4 <= pineapple_pos.z and pineapple_pos.z < pot_pos.z + 0.4
-	coconut_inside = pot_pos.x - 0.4 <= coconut_pos.x and coconut_pos.x < pot_pos.x + 0.4 and pot_pos.y - 0.4 <= coconut_pos.y and coconut_pos.y < pot_pos.y + 0.4 and pot_pos.z - 0.4 <= coconut_pos.z and coconut_pos.z < pot_pos.z + 0.4
+	apple_inside = pot_pos.x - 0.3 <= apple_pos.x and apple_pos.x < pot_pos.x + 0.3 and pot_pos.y - 0.3 <= apple_pos.y and apple_pos.y < pot_pos.y + 0.3 and pot_pos.z - 0.3 <= apple_pos.z and apple_pos.z < pot_pos.z + 0.3
+	pineapple_inside = pot_pos.x - 0.3 <= pineapple_pos.x and pineapple_pos.x < pot_pos.x + 0.3 and pot_pos.y - 0.3 <= pineapple_pos.y and pineapple_pos.y < pot_pos.y + 0.3 and pot_pos.z - 0.3 <= pineapple_pos.z and pineapple_pos.z < pot_pos.z + 0.3
+	coconut_inside = pot_pos.x - 0.3 <= coconut_pos.x and coconut_pos.x < pot_pos.x + 0.3 and pot_pos.y - 0.3 <= coconut_pos.y and coconut_pos.y < pot_pos.y + 0.3 and pot_pos.z - 0.3 <= coconut_pos.z and coconut_pos.z < pot_pos.z + 0.3
 	
 	var ing_count = 0
 	if apple_inside:

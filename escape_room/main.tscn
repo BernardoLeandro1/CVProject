@@ -1,4 +1,4 @@
-[gd_scene load_steps=257 format=3 uid="uid://cfjkfvrj3mpyd"]
+[gd_scene load_steps=258 format=3 uid="uid://cfjkfvrj3mpyd"]
 
 [ext_resource type="Texture2D" uid="uid://nn2ro1om2vwq" path="res://assets/textures/dev/grids/Floor/1-Classic-Floor-Tile-Background-Texture-copy.jpg" id="1_g0tog"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_go1eq"]
@@ -636,6 +636,9 @@ size = Vector3(1.95919, 0.10324, 1.45229)
 size = Vector3(1.95919, 0.270482, 1.45229)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_mufoj"]
+size = Vector3(1.95919, 3.34859, 0.169543)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5clfp"]
 size = Vector3(1.95919, 3.34859, 0.169543)
 
 [sub_resource type="Animation" id="Animation_16lqx"]
@@ -2825,6 +2828,10 @@ shape = SubResource("BoxShape3D_fh8rk")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.04622, 2.04011, -1.23251)
 shape = SubResource("BoxShape3D_mufoj")
 
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="kitchen/kitchenFridgeLarge"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.0824398, 2.04011, -0.894396)
+shape = SubResource("BoxShape3D_5clfp")
+
 [node name="fridge_door" type="AnimationPlayer" parent="kitchen/kitchenFridgeLarge"]
 libraries = {
 "": SubResource("AnimationLibrary_0g72y")
@@ -3457,7 +3464,7 @@ target_position = Vector3(0, 0, -2)
 [node name="hand" type="Marker3D" parent="player/head/Camera3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.6657)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="player/head/Camera3D"]
+[node name="pointer" type="MeshInstance3D" parent="player/head/Camera3D"]
 transform = Transform3D(0.005, 0, 0, 0, 0.005, 0, 0, 0, 0.005, 0, 0, -0.776777)
 mesh = SubResource("SphereMesh_b6bl5")
 
