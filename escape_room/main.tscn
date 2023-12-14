@@ -1889,8 +1889,8 @@ uv1_triplanar = true
 texture_repeat = false
 
 [sub_resource type="Gradient" id="Gradient_873yh"]
-offsets = PackedFloat32Array(0, 0.77439)
-colors = PackedColorArray(0.794402, 0, 0, 1, 0.858824, 0.407843, 0, 1)
+offsets = PackedFloat32Array(0, 0.701219, 0.878049)
+colors = PackedColorArray(0.794402, 0, 0, 1, 0.822221, 0.176114, 0, 1, 0.858824, 0.407843, 0, 1)
 
 [sub_resource type="GradientTexture1D" id="GradientTexture1D_w58gg"]
 gradient = SubResource("Gradient_873yh")
@@ -2937,7 +2937,7 @@ mesh = SubResource("ArrayMesh_dbj34")
 skeleton = NodePath("")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="kitchen/kitchenCabinet3/kitchenCabinet(Clone)/door"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.196226, 0.134269, -0.00114739)
+transform = Transform3D(-3.61999e-06, 0, 1, 0, 1, 0, -1, 0, -3.61999e-06, 0.196226, 0.134269, -0.00114739)
 shape = SubResource("BoxShape3D_qm7xx")
 
 [node name="cabinet_door" type="AnimationPlayer" parent="kitchen/kitchenCabinet3"]

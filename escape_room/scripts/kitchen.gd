@@ -3,7 +3,7 @@ extends Node3D
 @onready var light1 := $CelingFan/OmniLight3D
 @onready var light2 := $CelingFan2/OmniLight3D
 @onready var steam := $pot_steam/GPUParticles3D
-@onready var fire := $fire/CollisionShape3D
+@onready var fire := $fire
 @onready var green_steam = load("res://assets/particle_materials/green.tres")
 
 
