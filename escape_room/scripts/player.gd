@@ -21,10 +21,13 @@ func pick_object():
 	var collider = interaction.get_collider()
 	if collider != null and collider.is_in_group("interactable"):
 		picked_object = collider
+		#lock rotation when picked up
+		picked_object.set("lock_rotation", true)
 		print(collider.name)
 
 func drop_object():
 	if picked_object != null:
+		picked_object.set("lock_rotation", false)
 		picked_object = null
 
 func _ready():

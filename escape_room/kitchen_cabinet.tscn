@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://dkdojir44m8a7"]
+[gd_scene load_steps=16 format=3 uid="uid://dkdojir44m8a7"]
 
 [ext_resource type="Script" path="res://kitchen_cabinet.gd" id="1_34aem"]
 
@@ -180,7 +180,13 @@ _data = {
 }
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_q4urb"]
-size = Vector3(0.428794, 0.419519, 0.442894)
+size = Vector3(0.428794, 0.0555101, 0.442894)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_11r54"]
+size = Vector3(0.428794, 0.0803563, 0.442894)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2l1ey"]
+size = Vector3(0.428794, 0.0209413, 0.442894)
 
 [node name="kitchenCabinet" type="StaticBody3D"]
 script = ExtResource("1_34aem")
@@ -204,5 +210,13 @@ libraries = {
 }
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.212556, 0.201076, -0.228495)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.212231, 0.389829, -0.228495)
 shape = SubResource("BoxShape3D_q4urb")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.212231, 0.0424381, -0.228495)
+shape = SubResource("BoxShape3D_11r54")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.212231, 0.229026, -0.228495)
+shape = SubResource("BoxShape3D_2l1ey")

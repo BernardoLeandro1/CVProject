@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://dgeqjt78vheoc"]
+[gd_scene load_steps=22 format=3 uid="uid://dgeqjt78vheoc"]
 
 [ext_resource type="Script" path="res://kitchen_cabinet_upper_double.gd" id="1_kgpyc"]
 
@@ -197,7 +197,22 @@ shadow_mesh = SubResource("ArrayMesh_djjph")
 size = Vector3(0.172554, 0.326417, 0.0210255)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_v0byi"]
-size = Vector3(0.424001, 0.388238, 0.193636)
+size = Vector3(0.424001, 0.0314202, 0.193636)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3tray"]
+size = Vector3(0.424001, 0.38215, 0.0108957)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ye28a"]
+size = Vector3(0.424001, 0.0314202, 0.193636)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_m22vf"]
+size = Vector3(0.424001, 0.0314202, 0.193636)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_phhai"]
+size = Vector3(0.0106407, 0.349454, 0.193636)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_axje1"]
+size = Vector3(0.0241647, 0.349454, 0.193636)
 
 [sub_resource type="Animation" id="Animation_x0ipu"]
 length = 0.001
@@ -286,8 +301,32 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.10018, 0.168188, 4.47035e-
 shape = SubResource("BoxShape3D_7jbqy")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.212188, 0.197118, -0.103763)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.212188, 0.375578, -0.103763)
 shape = SubResource("BoxShape3D_v0byi")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.212188, 0.20001, -0.197152)
+shape = SubResource("BoxShape3D_3tray")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.212188, 0.196622, -0.103763)
+shape = SubResource("BoxShape3D_ye28a")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.212188, 0.0111546, -0.103763)
+shape = SubResource("BoxShape3D_m22vf")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0243572, 0.173596, -0.103763)
+shape = SubResource("BoxShape3D_phhai")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.398548, 0.173596, -0.103763)
+shape = SubResource("BoxShape3D_phhai")
+
+[node name="CollisionShape3D7" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.215787, 0.173596, -0.103763)
+shape = SubResource("BoxShape3D_axje1")
 
 [node name="upper_cabinet_doors" type="AnimationPlayer" parent="."]
 libraries = {
