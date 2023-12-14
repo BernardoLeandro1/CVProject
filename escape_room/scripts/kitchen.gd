@@ -4,6 +4,7 @@ extends Node3D
 @onready var light2 := $CelingFan2/OmniLight3D
 @onready var steam := $pot_steam/GPUParticles3D
 @onready var fire := $fire
+@onready var death_window := $died
 @onready var fire_limit := $fire/CollisionShape3D
 @onready var green_steam = load("res://assets/particle_materials/green.tres")
 
@@ -37,12 +38,18 @@ func _process(delta):
 	var coconut_inside
 	
 	#check if player is burning
-	if fire_limit != null:
+	if fire != null:
 		var player_pos = get_node("../player").get_global_transform().origin
 		var fire_pos = fire_limit.get_global_transform().origin
 		var player_inside = fire_pos.x - 1.5 <= player_pos.x and player_pos.x < fire_pos.x + 1.5 and fire_pos.z - 1.5 <= player_pos.z and player_pos.z < fire_pos.z + 1.5
-		if player_inside:	
-			get_tree().reload_current_scene()
+		if player_inside:
+			death_window.set("visible",true)
+			Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)	
+			# disable player movement
+			#get_node("../player").set("movement_enabled",false)
+			
+			
+			
 		
 
 	#check if they're inside the pot

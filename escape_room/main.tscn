@@ -1,4 +1,4 @@
-[gd_scene load_steps=214 format=3 uid="uid://cfjkfvrj3mpyd"]
+[gd_scene load_steps=215 format=3 uid="uid://cfjkfvrj3mpyd"]
 
 [ext_resource type="Texture2D" uid="uid://nn2ro1om2vwq" path="res://assets/textures/dev/grids/Floor/1-Classic-Floor-Tile-Background-Texture-copy.jpg" id="1_g0tog"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_go1eq"]
@@ -76,6 +76,7 @@
 [ext_resource type="PackedScene" uid="uid://d283ujmqqqxx6" path="res://kitchen_cabinet_corner_inner.tscn" id="71_seicl"]
 [ext_resource type="PackedScene" uid="uid://b11a31umuw3u7" path="res://bedroom.tscn" id="72_nvqwj"]
 [ext_resource type="PackedScene" uid="uid://dgeqjt78vheoc" path="res://kitchen_cabinet_upper_double.tscn" id="73_ayn7r"]
+[ext_resource type="Script" path="res://scripts/basement.gd" id="77_5wb02"]
 [ext_resource type="ArrayMesh" uid="uid://fwfwfpuu6owi" path="res://assets/models/OBJ format - food/banana.obj" id="79_oqdwb"]
 [ext_resource type="ArrayMesh" uid="uid://bpwv0oy2tk835" path="res://assets/models/OBJ format - food/beet.obj" id="80_2hwnj"]
 [ext_resource type="ArrayMesh" uid="uid://cr3iyfsraqdaq" path="res://assets/models/OBJ format - food/burger.obj" id="81_lfl0p"]
@@ -1280,9 +1281,9 @@ panorama = ExtResource("2_fkov3")
 sky_material = SubResource("PanoramaSkyMaterial_4f5fp")
 
 [sub_resource type="Environment" id="Environment_smxf5"]
-background_mode = 5
+background_mode = 2
 background_color = Color(0.188235, 0.188235, 0.188235, 1)
-background_energy_multiplier = 0.1
+background_energy_multiplier = 0.0
 sky = SubResource("Sky_v3vak")
 ambient_light_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
 tonemap_mode = 2
@@ -2390,8 +2391,18 @@ skeleton = NodePath("../../..")
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.219038, -0.107418)
 shape = SubResource("CapsuleShape3D_ps73k")
 
-[node name="env" type="Node3D" parent="."]
+[node name="died" type="Window" parent="kitchen"]
+title = "You died"
+initial_position = 1
+size = Vector2i(500, 200)
 visible = false
+
+[node name="Label" type="Label" parent="kitchen/died"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "You burned yourself!"
+
+[node name="env" type="Node3D" parent="."]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="env"]
 environment = SubResource("Environment_smxf5")
@@ -2531,11 +2542,12 @@ transform = Transform3D(0.333333, 0, 1.86517e-14, 0, 0.333333, 0, -1.86517e-14, 
 transform = Transform3D(-1.45704e-08, 0, -0.333333, 0, 0.333333, 0, 0.333333, 0, -1.45704e-08, -3.85235, 0.616667, 32.311)
 
 [node name="basement" type="Node3D" parent="."]
+script = ExtResource("77_5wb02")
 
 [node name="floor_basement" type="CSGBox3D" parent="basement"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.12547, -5.47358, 10.149)
 use_collision = true
-size = Vector3(15.0601, 1, 13.2509)
+size = Vector3(25.3914, 1, 21.4846)
 
 [node name="ceiling_basement3" type="CSGBox3D" parent="basement"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.38644, 5.18329, 8.5349)
@@ -2543,14 +2555,34 @@ use_collision = true
 size = Vector3(4.07816, 1, 8.49191)
 
 [node name="ceiling_basement2" type="CSGBox3D" parent="basement"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.185275, -0.742255, 14.8318)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.185275, -0.742255, 15.7914)
 use_collision = true
-size = Vector3(11.7219, 0.16185, 5.48495)
+size = Vector3(11.7219, 0.16185, 7.39717)
+
+[node name="ceiling_basement4" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.5237, -0.742255, 14.8318)
+use_collision = true
+size = Vector3(11.7219, 0.16185, 139.33)
 
 [node name="ceiling_basement" type="CSGBox3D" parent="basement"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.04029, -0.747024, 8.2264)
 use_collision = true
 size = Vector3(10.2254, 0.13912, 7.75579)
+
+[node name="ceiling_basement5" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1247, -0.747024, 8.2264)
+use_collision = true
+size = Vector3(20.228, 0.13912, 7.76321)
+
+[node name="ceiling_basement6" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.7477, -0.747024, 15.6506)
+use_collision = true
+size = Vector3(15.1909, 0.13912, 7.76321)
+
+[node name="ceiling_basement7" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.23817, -0.747024, 18.04)
+use_collision = true
+size = Vector3(7.45863, 0.13912, 4.78892)
 
 [node name="stairs" type="RigidBody3D" parent="basement"]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 4.7195, -4.97701, 10.745)
@@ -2605,15 +2637,177 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.91244, 4.9328, 2.04396)
 shape = SubResource("BoxShape3D_jv4yq")
 
 [node name="wall5" type="CSGBox3D" parent="basement"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44807, -3.21807, 3.9623)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.86714, -3.21807, 4.48254)
 use_collision = true
-size = Vector3(16.5056, 5, 1)
+size = Vector3(7.53962, 5, 0.173904)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall25" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.00812, -3.21807, 2.66482)
+use_collision = true
+size = Vector3(11.3911, 5, 0.173904)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall29" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.7511, -3.21807, 5.18559)
+use_collision = true
+size = Vector3(2.02246, 5, 0.173904)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall26" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.18714, -3.21807, -0.440374)
+use_collision = true
+size = Vector3(16.5323, 5, 0.173904)
 material = SubResource("StandardMaterial3D_shmvd")
 
 [node name="wall6" type="CSGBox3D" parent="basement"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.67596, -3.23421, 16.2026)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.13014, -3.23421, 15.6462)
 use_collision = true
-size = Vector3(15.1486, 5, 1)
+size = Vector3(15.1486, 5, 0.0894954)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall11" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4655, -3.23421, 15.6462)
+use_collision = true
+size = Vector3(4.51957, 5, 0.0894954)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall37" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.1564, -3.23421, 15.6462)
+use_collision = true
+size = Vector3(4.51957, 5, 0.0894954)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall36" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -8.24195, -3.23421, 13.7972)
+use_collision = true
+size = Vector3(3.65031, 5, 0.0894954)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall35" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1908, -3.23421, 17.7754)
+use_collision = true
+size = Vector3(12.2651, 5, 0.0894954)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall33" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.8033, -3.23421, 6.83212)
+use_collision = true
+size = Vector3(1.87263, 5, 0.0894954)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall15" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.57527, -3.23421, 11.839)
+use_collision = true
+size = Vector3(1.7817, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall19" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.24902, -3.23421, 13.8397)
+use_collision = true
+size = Vector3(1.7817, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall16" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.60151, -3.23421, 9.87735)
+use_collision = true
+size = Vector3(5.62521, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall23" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.3862, -3.23421, 11.9065)
+use_collision = true
+size = Vector3(4.5825, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall17" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.95676, -3.23421, 8.0827)
+use_collision = true
+size = Vector3(3.60623, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall20" type="CSGBox3D" parent="basement"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.81672, -3.23421, 6.3047)
+use_collision = true
+size = Vector3(5.34271, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall13" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.755792, -3.23421, 13.7186)
+use_collision = true
+size = Vector3(3.74625, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall14" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.04138, -3.23421, 11.891)
+use_collision = true
+size = Vector3(3.89196, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall21" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -6.41979, -3.23421, 8.11278)
+use_collision = true
+size = Vector3(3.69217, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall22" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.1884, -3.23421, 7.16045)
+use_collision = true
+size = Vector3(1.7797, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall18" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3.39729, -3.23421, 14.7853)
+use_collision = true
+size = Vector3(1.89923, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall32" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.07859, -3.23421, 14.941)
+use_collision = true
+size = Vector3(5.79799, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall12" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.0639, -3.23421, 8.68665)
+use_collision = true
+size = Vector3(8.5547, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall24" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.0639, -3.23421, 2.5465)
+use_collision = true
+size = Vector3(5.88518, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall27" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -14.759, -3.23421, 2.39438)
+use_collision = true
+size = Vector3(5.88518, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall34" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -14.759, -3.23421, 11.4795)
+use_collision = true
+size = Vector3(12.9666, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall28" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -12.6989, -3.23421, 3.91998)
+use_collision = true
+size = Vector3(2.6737, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall31" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -12.6989, -3.23421, 11.2734)
+use_collision = true
+size = Vector3(8.83178, 5, 0.0968612)
+material = SubResource("StandardMaterial3D_shmvd")
+
+[node name="wall30" type="CSGBox3D" parent="basement"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -10.8482, -3.23421, 9.53287)
+use_collision = true
+size = Vector3(8.8522, 5, 0.0968612)
 material = SubResource("StandardMaterial3D_shmvd")
 
 [node name="wall9" type="CSGBox3D" parent="basement"]
@@ -2629,15 +2823,15 @@ size = Vector3(8.07048, 7.1717, 1)
 material = SubResource("StandardMaterial3D_shmvd")
 
 [node name="wall7" type="CSGBox3D" parent="basement"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -8.74817, -3.23421, 9.78341)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -8.68067, -3.23421, 9.98569)
 use_collision = true
-size = Vector3(13.739, 5, 1)
+size = Vector3(11.2161, 5, 0.577158)
 material = SubResource("StandardMaterial3D_shmvd")
 
 [node name="wall8" type="CSGBox3D" parent="basement"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 4.86109, 0.683181, 10.4584)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 4.26288, 0.683181, 10.4584)
 use_collision = true
-size = Vector3(12.052, 12.8617, 1)
+size = Vector3(12.052, 12.8617, 0.0300773)
 material = SubResource("StandardMaterial3D_shmvd")
 
 [node name="hatch" type="Node3D" parent="basement"]
@@ -2660,7 +2854,7 @@ skeleton = NodePath("")
 [node name="SpotLight3D" type="SpotLight3D" parent="basement/hatch"]
 transform = Transform3D(-1.74846e-06, 28.2843, -28.2843, 0, 28.2843, 28.2843, 40, 1.23634e-06, -1.23634e-06, 28.9585, 119.474, 8.56128)
 light_energy = 6.172
-spot_range = 4.645
+spot_range = 3.054
 
 [node name="ladder" type="Node3D" parent="basement"]
 transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -7.86845, -2.03977, 13.8107)
@@ -2677,8 +2871,22 @@ transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 
 mesh = SubResource("ArrayMesh_oxhlh")
 skeleton = NodePath("")
 
+[node name="end" type="Window" parent="basement"]
+title = "The end"
+initial_position = 1
+size = Vector2i(500, 200)
+visible = false
+
+[node name="Label" type="Label" parent="basement/end"]
+offset_right = 124.0
+offset_bottom = 52.0
+text = "You got out!
+Congratulations"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="player" type="CharacterBody3D" parent="."]
-transform = Transform3D(-1.5, 0, -1.31134e-07, 0, 1.5, 0, 1.31134e-07, 0, -1.5, -8.41863, 0.497514, -1.5972)
+transform = Transform3D(-1.5, 0, -1.31134e-07, 0, 1.5, 0, 1.31134e-07, 0, -1.5, 2.79272, 0.4723, 0.696498)
 script = ExtResource("1_go1eq")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="player"]
