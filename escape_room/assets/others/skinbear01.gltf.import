@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://p32tevqwaymx"
-path="res://.godot/imported/lampSquareTable.glb-dba7dbb3f77536447e601da97741d482.scn"
+uid="uid://d1jwn51qjfhac"
+path="res://.godot/imported/skinbear01.gltf-d7f55e1eb5593dc2a420f090babcc220.scn"
 
 [deps]
 
-source_file="res://assets/models/GLTF format/lampSquareTable.glb"
-dest_files=["res://.godot/imported/lampSquareTable.glb-dba7dbb3f77536447e601da97741d482.scn"]
+source_file="res://assets/others/skinbear01.gltf"
+dest_files=["res://.godot/imported/skinbear01.gltf-d7f55e1eb5593dc2a420f090babcc220.scn"]
 
 [params]
 
@@ -28,12 +28,5 @@ animation/fps=30
 animation/trimming=false
 animation/remove_immutable_tracks=true
 import_script/path=""
-_subresources={
-"nodes": {
-"PATH:lampSquareTable(Clone)": {
-"generate/physics": true,
-"physics/shape_type": 1
-}
-}
-}
+_subresources={}
 gltf/embedded_image_handling=1

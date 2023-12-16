@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2qtejwrjhlcg"
-path.s3tc="res://.godot/imported/painting_by_zdzislaw_beksinski_4_9.jpg-84f735ca45cea12870b387ef9cb75f18.s3tc.ctex"
+uid="uid://cbaxiysfk6cfi"
+path.s3tc="res://.godot/imported/skinbear01_castletexture.png-89aaa8eaf7b0378abf5e400c4c242491.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://furniture/painting_by_zdzislaw_beksinski_4_9.jpg"
-dest_files=["res://.godot/imported/painting_by_zdzislaw_beksinski_4_9.jpg-84f735ca45cea12870b387ef9cb75f18.s3tc.ctex"]
+source_file="res://assets/others/skinbear01_castletexture.png"
+dest_files=["res://.godot/imported/skinbear01_castletexture.png-89aaa8eaf7b0378abf5e400c4c242491.s3tc.ctex"]
 
 [params]
 

@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://p32tevqwaymx"
-path="res://.godot/imported/lampSquareTable.glb-dba7dbb3f77536447e601da97741d482.scn"
+uid="uid://bst4qym2f4egc"
+path="res://.godot/imported/closetwood01.gltf-13f8cd1575aafe0c4721be697c0fcea7.scn"
 
 [deps]
 
-source_file="res://assets/models/GLTF format/lampSquareTable.glb"
-dest_files=["res://.godot/imported/lampSquareTable.glb-dba7dbb3f77536447e601da97741d482.scn"]
+source_file="res://assets/others/closetwood01.gltf"
+dest_files=["res://.godot/imported/closetwood01.gltf-13f8cd1575aafe0c4721be697c0fcea7.scn"]
 
 [params]
 
@@ -30,9 +30,8 @@ animation/remove_immutable_tracks=true
 import_script/path=""
 _subresources={
 "nodes": {
-"PATH:lampSquareTable(Clone)": {
-"generate/physics": true,
-"physics/shape_type": 1
+"PATH:Cube": {
+"generate/physics": true
 }
 }
 }

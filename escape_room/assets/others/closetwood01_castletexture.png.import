@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dm45khf7boyea"
-path.s3tc="res://.godot/imported/painting_by_zdzislaw_beksinski_4_0.jpg-ddb9d40be0c1c6c1865b6db8953a4506.s3tc.ctex"
+uid="uid://dvk4ofc1q3lnl"
+path.s3tc="res://.godot/imported/closetwood01_castletexture.png-0bb8beb211b193de0e575dc2d9850201.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://furniture/painting_by_zdzislaw_beksinski_4_0.jpg"
-dest_files=["res://.godot/imported/painting_by_zdzislaw_beksinski_4_0.jpg-ddb9d40be0c1c6c1865b6db8953a4506.s3tc.ctex"]
+source_file="res://assets/others/closetwood01_castletexture.png"
+dest_files=["res://.godot/imported/closetwood01_castletexture.png-0bb8beb211b193de0e575dc2d9850201.s3tc.ctex"]
 
 [params]
 

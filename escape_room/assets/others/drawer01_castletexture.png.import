@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmg3q6ld24ec2"
-path.s3tc="res://.godot/imported/painting_stand_with_painting_0.jpg-7bb77b65cdbe4ccfb7085552e80785b6.s3tc.ctex"
+uid="uid://bkg54gu0h8a6g"
+path.s3tc="res://.godot/imported/drawer01_castletexture.png-742d1e22ef40b35d4c54c7909004e59e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://furniture/painting_stand_with_painting_0.jpg"
-dest_files=["res://.godot/imported/painting_stand_with_painting_0.jpg-7bb77b65cdbe4ccfb7085552e80785b6.s3tc.ctex"]
+source_file="res://assets/others/drawer01_castletexture.png"
+dest_files=["res://.godot/imported/drawer01_castletexture.png-742d1e22ef40b35d4c54c7909004e59e.s3tc.ctex"]
 
 [params]
 
