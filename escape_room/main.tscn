@@ -1,5 +1,6 @@
-[gd_scene load_steps=114 format=3 uid="uid://cfjkfvrj3mpyd"]
+[gd_scene load_steps=119 format=3 uid="uid://cfjkfvrj3mpyd"]
 
+[ext_resource type="Script" path="res://main.gd" id="1_2kh1n"]
 [ext_resource type="Texture2D" uid="uid://nn2ro1om2vwq" path="res://assets/textures/dev/grids/Floor/1-Classic-Floor-Tile-Background-Texture-copy.jpg" id="1_g0tog"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_go1eq"]
 [ext_resource type="Script" path="res://CelingFan.gd" id="2_chbwt"]
@@ -74,6 +75,8 @@
 [ext_resource type="PackedScene" uid="uid://b3oa4xjdh6iuq" path="res://kitchen_fridge_large.tscn" id="73_mj8tw"]
 [ext_resource type="PackedScene" uid="uid://cgjcn68vknbcf" path="res://bedroom_dorway.tscn" id="73_vnw51"]
 [ext_resource type="PackedScene" path="res://scenes/rope.tscn" id="74_uubyk"]
+[ext_resource type="PackedScene" uid="uid://cshwsj8hvohtm" path="res://door_key.tscn" id="76_mkayq"]
+[ext_resource type="Script" path="res://door_key.gd" id="77_cir0a"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gkdgp"]
 
@@ -389,13 +392,20 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_yfbht")
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_2df0t"]
+size = Vector3(0.1, 0.1, 1)
+
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_c0cng"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i3wt8"]
 albedo_texture = ExtResource("1_g0tog")
 uv1_triplanar = true
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_7cac1"]
+size = Vector3(0.1, 0.1, 0.1)
+
 [node name="World" type="Node3D"]
+script = ExtResource("1_2kh1n")
 
 [node name="kitchen" type="Node3D" parent="."]
 
@@ -1175,12 +1185,8 @@ mesh = SubResource("ArrayMesh_oxhlh")
 skeleton = NodePath("")
 
 [node name="player" type="CharacterBody3D" parent="."]
-transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 25.193, 0.497514, -3.9255)
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 21.879, 0.497514, -3.9255)
 script = ExtResource("1_go1eq")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="player"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
-shape = SubResource("CapsuleShape3D_c0cng")
 
 [node name="head" type="Node3D" parent="player"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
@@ -1192,8 +1198,21 @@ transform = Transform3D(0.666667, 0, 0, 0, 0.666667, 0, 0, 0, 0.666667, 0, 0, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00378001, 0)
 target_position = Vector3(0, 0, -2)
 
+[node name="RigidBody3D" type="RigidBody3D" parent="player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.568406, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="player/RigidBody3D"]
+shape = SubResource("BoxShape3D_2df0t")
+
+[node name="Marker3D" type="Marker3D" parent="player/RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.821755, -0.511743, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_c0cng")
+
 [node name="floor" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.21712, -0.5, -3.04197)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.18753, -0.5, -3.05432)
 use_collision = true
 size = Vector3(37.9101, 1, 15)
 material = SubResource("StandardMaterial3D_i3wt8")
@@ -1209,3 +1228,23 @@ transform = Transform3D(-1.83588e-07, 0, 4.2, 0, 4.2, 0, -4.2, 0, -1.83588e-07, 
 
 [node name="rope" parent="." instance=ExtResource("74_uubyk")]
 transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 26.9206, 1.37966, -5.18023)
+visible = false
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.8975, 0.692671, -5.07945)
+
+[node name="Marker3D" type="Marker3D" parent="RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.689878, 0.632266, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RigidBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D/StaticBody3D"]
+shape = SubResource("BoxShape3D_7cac1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.707081, 0, 0)
+shape = SubResource("BoxShape3D_7cac1")
+
+[node name="key" parent="." groups=["interactable", "pickup"] instance=ExtResource("76_mkayq")]
+transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, 21.4971, 0.02091, 1.06516)
+script = ExtResource("77_cir0a")
