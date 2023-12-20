@@ -1,4 +1,4 @@
-[gd_scene load_steps=216 format=3 uid="uid://cfjkfvrj3mpyd"]
+[gd_scene load_steps=221 format=3 uid="uid://cfjkfvrj3mpyd"]
 
 [ext_resource type="Texture2D" uid="uid://nn2ro1om2vwq" path="res://assets/textures/dev/grids/Floor/1-Classic-Floor-Tile-Background-Texture-copy.jpg" id="1_g0tog"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_go1eq"]
@@ -54,7 +54,6 @@
 [ext_resource type="PackedScene" uid="uid://b7w0pq6fuij7c" path="res://doorway.tscn" id="49_5bkvx"]
 [ext_resource type="PackedScene" uid="uid://ltnoxpfkgxqd" path="res://furniture/GLTF format/rugRectangle.glb" id="49_ufnkw"]
 [ext_resource type="PackedScene" uid="uid://555q465f1ubq" path="res://lounge_chair_relax.tscn" id="50_ai4qs"]
-[ext_resource type="PackedScene" uid="uid://vhpj87u6fn2o" path="res://furniture/GLTF format/lampSquareFloor.glb" id="51_sbase"]
 [ext_resource type="PackedScene" uid="uid://b1rpsibmlisqm" path="res://furniture/GLTF format/loungeChair.glb" id="52_bj5aw"]
 [ext_resource type="PackedScene" uid="uid://lpjpir8ptiqm" path="res://lounge_chair.tscn" id="53_kx21h"]
 [ext_resource type="PackedScene" uid="uid://cdg6rvai0o3d8" path="res://furniture/GLTF format/tableCrossCloth.glb" id="54_8qc3q"]
@@ -78,13 +77,17 @@
 [ext_resource type="PackedScene" uid="uid://dgeqjt78vheoc" path="res://kitchen_cabinet_upper_double.tscn" id="73_ayn7r"]
 [ext_resource type="Script" path="res://scripts/basement.gd" id="77_5wb02"]
 [ext_resource type="PackedScene" uid="uid://cne3vcfouv3dr" path="res://light_switch.tscn" id="77_dftjb"]
+[ext_resource type="Texture2D" uid="uid://bdhd1ssn6hqu0" path="res://output-onlinepngtools (6).png" id="78_5u4p2"]
+[ext_resource type="PackedScene" uid="uid://di7acyp4iji04" path="res://assets/models/OBJ format/remoteTV.tscn" id="79_3r132"]
 [ext_resource type="ArrayMesh" uid="uid://fwfwfpuu6owi" path="res://assets/models/OBJ format - food/banana.obj" id="79_oqdwb"]
 [ext_resource type="ArrayMesh" uid="uid://bpwv0oy2tk835" path="res://assets/models/OBJ format - food/beet.obj" id="80_2hwnj"]
+[ext_resource type="PackedScene" uid="uid://bmfbx5raoxaxy" path="res://assets/models/OBJ format/lamp_round_floor.tscn" id="80_3w3yi"]
 [ext_resource type="ArrayMesh" uid="uid://cr3iyfsraqdaq" path="res://assets/models/OBJ format - food/burger.obj" id="81_lfl0p"]
 [ext_resource type="ArrayMesh" uid="uid://d3j8vnf2s6j0h" path="res://assets/models/OBJ format - food/cabbage.obj" id="82_relym"]
 [ext_resource type="ArrayMesh" uid="uid://bqekg5s7uid4t" path="res://assets/models/OBJ format - food/cake.obj" id="83_f4dxi"]
 [ext_resource type="ArrayMesh" uid="uid://c7idxxsyqofuk" path="res://assets/models/OBJ format - food/carrot.obj" id="84_ro83f"]
 [ext_resource type="ArrayMesh" uid="uid://u12umuovqnxv" path="res://assets/models/OBJ format - food/fish.obj" id="85_tr8cq"]
+[ext_resource type="PackedScene" uid="uid://7m15gdihm4cg" path="res://lamp_square_floor.tscn" id="86_4c20y"]
 [ext_resource type="ArrayMesh" uid="uid://brv4ty8pwijvn" path="res://assets/models/OBJ format - food/wholeHam.obj" id="86_ah2ee"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gkdgp"]
@@ -1389,6 +1392,12 @@ albedo_color = Color(0.929412, 0.764706, 0, 1)
 albedo_texture = ExtResource("2_lciap")
 texture_repeat = false
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dcbur"]
+albedo_texture = ExtResource("78_5u4p2")
+
+[sub_resource type="QuadMesh" id="QuadMesh_vt2vo"]
+material = SubResource("StandardMaterial3D_dcbur")
+
 [sub_resource type="BoxShape3D" id="BoxShape3D_jv4yq"]
 size = Vector3(0.727318, 0.146962, 3.08126)
 
@@ -2490,9 +2499,6 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, -5.55112e-17, -1, 0, -4.37114e
 [node name="loungeChairRelax" parent="LivingRoom" instance=ExtResource("50_ai4qs")]
 transform = Transform3D(0.573577, 0, 0.819152, 0, 1, -2.32831e-09, -0.819152, 0, 0.573576, -6.00786, 0.632888, 33.1292)
 
-[node name="lampSquareFloor" parent="LivingRoom" instance=ExtResource("51_sbase")]
-transform = Transform3D(1, 0, 7.10543e-15, 0, 1, 0, -7.10543e-15, 0, 1, -7.01369, 0.635767, 35.9611)
-
 [node name="loungeChair" parent="LivingRoom" instance=ExtResource("52_bj5aw")]
 transform = Transform3D(-0.573576, 0, 0.819152, 9.31323e-10, 1, 1.86265e-09, -0.819152, 0, -0.573577, -5.95126, 0.658553, 35.8999)
 
@@ -2544,6 +2550,19 @@ transform = Transform3D(-1.45704e-08, 0, -0.333333, 0, 0.333333, 0, 0.333333, 0,
 
 [node name="light_switch" parent="LivingRoom" instance=ExtResource("77_dftjb")]
 transform = Transform3D(-1.45704e-08, 0, -0.333333, 0, 0.333333, 0, 0.333333, 0, -1.45704e-08, -3.67756, 1.51927, 31.9806)
+
+[node name="lampSquareFloor" parent="LivingRoom" instance=ExtResource("86_4c20y")]
+transform = Transform3D(-1.45704e-08, 0, -0.333333, 0, 0.333333, 0, 0.333333, 0, -1.45704e-08, -7.15675, 0.616667, 35.9222)
+
+[node name="hint2" type="MeshInstance3D" parent="LivingRoom"]
+transform = Transform3D(-0.5, 0, -4.37114e-08, 0, 0.5, 0, 4.37114e-08, 0, -0.5, -7.15094, 1.36201, 36.2632)
+mesh = SubResource("QuadMesh_vt2vo")
+
+[node name="remoteTV" parent="LivingRoom" instance=ExtResource("79_3r132")]
+transform = Transform3D(-1.45704e-08, 0, -0.333333, 0, 0.333333, 0, 0.333333, 0, -1.45704e-08, -5.478, 0.801, 34.281)
+
+[node name="lampRoundFloor" parent="LivingRoom" instance=ExtResource("80_3w3yi")]
+transform = Transform3D(-1.45704e-08, 0, -0.333333, 0, 0.333333, 0, 0.333333, 0, -1.45704e-08, -7.27487, 0.616667, 32.3553)
 
 [node name="basement" type="Node3D" parent="."]
 script = ExtResource("77_5wb02")

@@ -1,6 +1,7 @@
-[gd_scene load_steps=16 format=3 uid="uid://0amem6lg0el"]
+[gd_scene load_steps=19 format=3 uid="uid://0amem6lg0el"]
 
 [ext_resource type="PackedScene" uid="uid://bq0nnonddan8f" path="res://furniture/GLTF format/televisionModern.glb" id="2_071xv"]
+[ext_resource type="Texture2D" uid="uid://ki681f47yw8c" path="res://output-onlinepngtools (7).png" id="2_jc183"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_do4ch"]
 resource_name = "wood"
@@ -213,6 +214,12 @@ _data = {
 "open_doors": SubResource("Animation_cyxa7")
 }
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xxrb6"]
+albedo_texture = ExtResource("2_jc183")
+
+[sub_resource type="QuadMesh" id="QuadMesh_fp5i2"]
+material = SubResource("StandardMaterial3D_xxrb6")
+
 [node name="TVandCabinet" type="StaticBody3D"]
 
 [node name="cabinetTelevisionDoors(Clone)" type="MeshInstance3D" parent="."]
@@ -256,3 +263,7 @@ shape = SubResource("BoxShape3D_2c26n")
 libraries = {
 "": SubResource("AnimationLibrary_lanep")
 }
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.66, 0, 0, 0, 0.36, 0, 0, 0, 1, 0.392, 0.576, -0.095)
+mesh = SubResource("QuadMesh_fp5i2")
