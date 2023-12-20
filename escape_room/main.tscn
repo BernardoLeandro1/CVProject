@@ -1,4 +1,4 @@
-[gd_scene load_steps=215 format=3 uid="uid://cfjkfvrj3mpyd"]
+[gd_scene load_steps=216 format=3 uid="uid://cfjkfvrj3mpyd"]
 
 [ext_resource type="Texture2D" uid="uid://nn2ro1om2vwq" path="res://assets/textures/dev/grids/Floor/1-Classic-Floor-Tile-Background-Texture-copy.jpg" id="1_g0tog"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_go1eq"]
@@ -77,6 +77,7 @@
 [ext_resource type="PackedScene" uid="uid://b11a31umuw3u7" path="res://bedroom.tscn" id="72_nvqwj"]
 [ext_resource type="PackedScene" uid="uid://dgeqjt78vheoc" path="res://kitchen_cabinet_upper_double.tscn" id="73_ayn7r"]
 [ext_resource type="Script" path="res://scripts/basement.gd" id="77_5wb02"]
+[ext_resource type="PackedScene" uid="uid://cne3vcfouv3dr" path="res://light_switch.tscn" id="77_dftjb"]
 [ext_resource type="ArrayMesh" uid="uid://fwfwfpuu6owi" path="res://assets/models/OBJ format - food/banana.obj" id="79_oqdwb"]
 [ext_resource type="ArrayMesh" uid="uid://bpwv0oy2tk835" path="res://assets/models/OBJ format - food/beet.obj" id="80_2hwnj"]
 [ext_resource type="ArrayMesh" uid="uid://cr3iyfsraqdaq" path="res://assets/models/OBJ format - food/burger.obj" id="81_lfl0p"]
@@ -2540,6 +2541,9 @@ transform = Transform3D(0.333333, 0, 1.86517e-14, 0, 0.333333, 0, -1.86517e-14, 
 
 [node name="bookcaseClosedWide" parent="LivingRoom" groups=["interactable"] instance=ExtResource("64_hyyf2")]
 transform = Transform3D(-1.45704e-08, 0, -0.333333, 0, 0.333333, 0, 0.333333, 0, -1.45704e-08, -3.85235, 0.616667, 32.311)
+
+[node name="light_switch" parent="LivingRoom" instance=ExtResource("77_dftjb")]
+transform = Transform3D(-1.45704e-08, 0, -0.333333, 0, 0.333333, 0, 0.333333, 0, -1.45704e-08, -3.67756, 1.51927, 31.9806)
 
 [node name="basement" type="Node3D" parent="."]
 script = ExtResource("77_5wb02")
