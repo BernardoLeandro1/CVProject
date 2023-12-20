@@ -1,11 +1,10 @@
-[gd_scene load_steps=221 format=3 uid="uid://cfjkfvrj3mpyd"]
+[gd_scene load_steps=220 format=3 uid="uid://cfjkfvrj3mpyd"]
 
 [ext_resource type="Texture2D" uid="uid://nn2ro1om2vwq" path="res://assets/textures/dev/grids/Floor/1-Classic-Floor-Tile-Background-Texture-copy.jpg" id="1_g0tog"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_go1eq"]
 [ext_resource type="Script" path="res://scripts/kitchen.gd" id="1_ryf1k"]
 [ext_resource type="Script" path="res://CelingFan.gd" id="2_chbwt"]
 [ext_resource type="Texture2D" uid="uid://bomdya31b0abn" path="res://assets/hdris/kloofendal_48d_partly_cloudy_puresky_2k.hdr" id="2_fkov3"]
-[ext_resource type="Texture2D" uid="uid://ddjlblxen8aoo" path="res://assets/textures/wine_too.png" id="2_iugft"]
 [ext_resource type="Texture2D" uid="uid://soymm8to4pla" path="res://assets/textures/dev/grids/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg" id="2_lciap"]
 [ext_resource type="ArrayMesh" uid="uid://du5nf87vgt2c8" path="res://assets/models/OBJ format/tableCloth.obj" id="4_p6ggv"]
 [ext_resource type="ArrayMesh" uid="uid://dg53o45miioyi" path="res://assets/models/OBJ format/stoolBar.obj" id="4_ybupt"]
@@ -91,8 +90,6 @@
 [ext_resource type="ArrayMesh" uid="uid://brv4ty8pwijvn" path="res://assets/models/OBJ format - food/wholeHam.obj" id="86_ah2ee"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gkdgp"]
-albedo_color = Color(1, 1, 0.380392, 1)
-albedo_texture = ExtResource("2_iugft")
 uv1_scale = Vector3(0.3, 0.3, 0.3)
 uv1_triplanar = true
 

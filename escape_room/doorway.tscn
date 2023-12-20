@@ -1,6 +1,7 @@
-[gd_scene load_steps=20 format=3 uid="uid://b7w0pq6fuij7c"]
+[gd_scene load_steps=23 format=3 uid="uid://b7w0pq6fuij7c"]
 
 [ext_resource type="Script" path="res://door.gd" id="1_oapwa"]
+[ext_resource type="Texture2D" uid="uid://bd1pqegbauhck" path="res://assets/models/hint_living_room.png" id="2_ofgic"]
 [ext_resource type="Texture2D" uid="uid://soymm8to4pla" path="res://assets/textures/dev/grids/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg" id="2_yfgb5"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ecah4"]
@@ -94,6 +95,12 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_mggo3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_txcd0"]
+albedo_texture = ExtResource("2_ofgic")
+
+[sub_resource type="QuadMesh" id="QuadMesh_wu8ev"]
+material = SubResource("StandardMaterial3D_txcd0")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3bs4c"]
 resource_name = "_defaultMat"
@@ -289,6 +296,10 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.02835, 0, -0.04455)
 mesh = SubResource("ArrayMesh_m3c77")
 skeleton = NodePath("")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="doorway(Clone)/door"]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.245, 0.707, 0.024)
+mesh = SubResource("QuadMesh_wu8ev")
 
 [node name="wallDoorway" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.229653, 0, 0)
