@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7bb589213f4a12ca0001c5ec39ed53aa06667f0b352eebe9adf6b6f77a7e7465
-size 290
+extends Node3D
+
+var open = false
+
+@onready var d := $dooropen
+@onready var lock := $"../combination_lock"
+
+func interact():
+	if lock.unlocked and !open:
+		d.play("Open")
+		lock.visible = false
+		lock.position.y = -100
+		open = true
+	elif open:
+		d.play_backwards("Open")
+		open = false
+
+
+
+

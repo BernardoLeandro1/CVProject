@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:706deb2ac99c87ac196d161e0212f28567a15168989199c9bbe4408aeaf86cdd
-size 806
+[gd_scene load_steps=4 format=3 uid="uid://di7acyp4iji04"]
+
+[ext_resource type="PackedScene" path="res://assets/models/OBJ format/samsung_tv_remote_control.glb" id="1_86131"]
+[ext_resource type="Script" path="res://assets/models/OBJ format/remoteTV.gd" id="1_waina"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jhctv"]
+size = Vector3(0.114518, 0.0539068, 0.482204)
+
+[node name="remoteTV" type="StaticBody3D"]
+script = ExtResource("1_waina")
+
+[node name="samsung_tv_remote_control" parent="." instance=ExtResource("1_86131")]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0.0484372, 0.213103, 0.080849)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0484402, 0.22756, 0.0899806)
+shape = SubResource("BoxShape3D_jhctv")
