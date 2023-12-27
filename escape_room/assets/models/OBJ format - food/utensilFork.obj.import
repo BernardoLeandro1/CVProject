@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://dk1r8xadk3q4t"
-path="res://.godot/imported/utensilFork.obj-b1afaec364d337b764b620eebeeaf5ab.mesh"
-
-[deps]
-
-files=["res://.godot/imported/utensilFork.obj-b1afaec364d337b764b620eebeeaf5ab.mesh"]
-
-source_file="res://assets/models/OBJ format - food/utensilFork.obj"
-dest_files=["res://.godot/imported/utensilFork.obj-b1afaec364d337b764b620eebeeaf5ab.mesh", "res://.godot/imported/utensilFork.obj-b1afaec364d337b764b620eebeeaf5ab.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:49cf5af4c00bc392bfa362d4d1ab2524ca74fa856f779c82e41563db2df467f9
+size 618

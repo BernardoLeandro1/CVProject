@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://n3dh0nam44hc"
-path="res://.godot/imported/meatPatty.obj-f92461523b58ca2d412f91c865ea81c6.mesh"
-
-[deps]
-
-files=["res://.godot/imported/meatPatty.obj-f92461523b58ca2d412f91c865ea81c6.mesh"]
-
-source_file="res://assets/models/OBJ format - food/meatPatty.obj"
-dest_files=["res://.godot/imported/meatPatty.obj-f92461523b58ca2d412f91c865ea81c6.mesh", "res://.godot/imported/meatPatty.obj-f92461523b58ca2d412f91c865ea81c6.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:66460f13e18fdda43d97dc99d3ba7edecfa1cab35b430679424b7719c83ecd82
+size 607

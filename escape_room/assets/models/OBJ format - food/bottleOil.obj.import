@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://c3mo4bym4ut1t"
-path="res://.godot/imported/bottleOil.obj-db8411d81c074a54511ad9980afdf650.mesh"
-
-[deps]
-
-files=["res://.godot/imported/bottleOil.obj-db8411d81c074a54511ad9980afdf650.mesh"]
-
-source_file="res://assets/models/OBJ format - food/bottleOil.obj"
-dest_files=["res://.godot/imported/bottleOil.obj-db8411d81c074a54511ad9980afdf650.mesh", "res://.godot/imported/bottleOil.obj-db8411d81c074a54511ad9980afdf650.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:4eb679276938e309c09ca5c99b4fc321f53be049b09a5f18f6469e1d6c366ecb
+size 608

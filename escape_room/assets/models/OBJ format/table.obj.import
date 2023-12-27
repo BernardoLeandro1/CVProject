@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://cdm4n53eu63re"
-path="res://.godot/imported/table.obj-d9e305ce6aa2390e36fd7a8580f658ad.mesh"
-
-[deps]
-
-files=["res://.godot/imported/table.obj-d9e305ce6aa2390e36fd7a8580f658ad.mesh"]
-
-source_file="res://assets/models/OBJ format/table.obj"
-dest_files=["res://.godot/imported/table.obj-d9e305ce6aa2390e36fd7a8580f658ad.mesh", "res://.godot/imported/table.obj-d9e305ce6aa2390e36fd7a8580f658ad.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:b62ba14b81ba88f67ccd0ce8b3ffc724cfbe4dcf0bb1644b0ec197d5c2ba52e4
+size 581

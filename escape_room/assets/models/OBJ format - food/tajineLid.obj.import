@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://cqnmxxewycchi"
-path="res://.godot/imported/tajineLid.obj-a85c53df4629c69ba8263e4b09ecf67b.mesh"
-
-[deps]
-
-files=["res://.godot/imported/tajineLid.obj-a85c53df4629c69ba8263e4b09ecf67b.mesh"]
-
-source_file="res://assets/models/OBJ format - food/tajineLid.obj"
-dest_files=["res://.godot/imported/tajineLid.obj-a85c53df4629c69ba8263e4b09ecf67b.mesh", "res://.godot/imported/tajineLid.obj-a85c53df4629c69ba8263e4b09ecf67b.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:074475f8a3f9b3499d6144f92baeabd3bfa4625e4431227931b1b160205f8442
+size 608

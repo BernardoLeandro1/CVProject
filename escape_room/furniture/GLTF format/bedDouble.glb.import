@@ -1,32 +1,3 @@
-[remap]
-
-importer="scene"
-importer_version=1
-type="PackedScene"
-uid="uid://bmq4qlymy0im8"
-path="res://.godot/imported/bedDouble.glb-ea8571a63d43f2f1d371bb5a83f781a1.scn"
-
-[deps]
-
-source_file="res://furniture/GLTF format/bedDouble.glb"
-dest_files=["res://.godot/imported/bedDouble.glb-ea8571a63d43f2f1d371bb5a83f781a1.scn"]
-
-[params]
-
-nodes/root_type="Node3D"
-nodes/root_name="Scene Root"
-nodes/apply_root_scale=true
-nodes/root_scale=1.0
-meshes/ensure_tangents=true
-meshes/generate_lods=true
-meshes/create_shadow_meshes=true
-meshes/light_baking=1
-meshes/lightmap_texel_size=0.2
-skins/use_named_skins=true
-animation/import=true
-animation/fps=30
-animation/trimming=false
-animation/remove_immutable_tracks=true
-import_script/path=""
-_subresources={}
-gltf/embedded_image_handling=1
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e93806328ffe65e3a18b8e833ce56a1a54b375c015b1d873671e1df6f4df196
+size 777

@@ -1,17 +1,3 @@
-extends StaticBody3D
-
-
-var open = false
-@onready var player := $"../../player"
-@onready var anim := $sink_door
-@onready var door := $"kitchenSink(Clone)/door"
-
-
-
-func interact():
-	if !open:
-		anim.play("open_sink")
-		open = true
-	elif open:
-		anim.play_backwards("open_sink")
-		open = false
+version https://git-lfs.github.com/spec/v1
+oid sha256:914ac4dfb78cb975659d059707f394c20a8a8eac30aa6c558f57b31b14414da2
+size 291

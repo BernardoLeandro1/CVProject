@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://clqphocpmycvc"
-path="res://.godot/imported/wallWindowSlide.obj-b928ef1a4eed343528f8f64dc782a82f.mesh"
-
-[deps]
-
-files=["res://.godot/imported/wallWindowSlide.obj-b928ef1a4eed343528f8f64dc782a82f.mesh"]
-
-source_file="res://assets/models/OBJ format/wallWindowSlide.obj"
-dest_files=["res://.godot/imported/wallWindowSlide.obj-b928ef1a4eed343528f8f64dc782a82f.mesh", "res://.godot/imported/wallWindowSlide.obj-b928ef1a4eed343528f8f64dc782a82f.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:c396db0e4b7331b9700c2d56c7d6f4e8e22f6d2450377a90da2d198d42e44c3f
+size 631

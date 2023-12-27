@@ -1,15 +1,3 @@
-extends StaticBody3D
-
-
-var open = false
-@onready var player := $"../../player"
-@onready var anim := $switchlight
-
-func interact():
-	if !open:
-		print("HEY")
-		anim.play("switchlight")
-		open = true
-	elif open:
-		anim.play_backwards("switchlight")
-		open = false
+version https://git-lfs.github.com/spec/v1
+oid sha256:c26f220214efbd377ce365c8af88397bafbd8b5c0e15154a6761b697c87f1654
+size 262

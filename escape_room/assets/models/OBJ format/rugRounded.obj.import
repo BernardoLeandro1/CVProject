@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://b7lcfc0s37kbx"
-path="res://.godot/imported/rugRounded.obj-29ff937a43e37944ab82bcf17bca0648.mesh"
-
-[deps]
-
-files=["res://.godot/imported/rugRounded.obj-29ff937a43e37944ab82bcf17bca0648.mesh"]
-
-source_file="res://assets/models/OBJ format/rugRounded.obj"
-dest_files=["res://.godot/imported/rugRounded.obj-29ff937a43e37944ab82bcf17bca0648.mesh", "res://.godot/imported/rugRounded.obj-29ff937a43e37944ab82bcf17bca0648.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:968c77a44728a79de4cf0ccabc3499e0386691ae9ae96797fb94e9c678438871
+size 606

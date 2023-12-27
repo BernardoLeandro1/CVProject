@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://b3u6m8ma8cdoj"
-path="res://.godot/imported/peanutButter.obj-27f2b59cbaf0cdf9c9bb050d05f94175.mesh"
-
-[deps]
-
-files=["res://.godot/imported/peanutButter.obj-27f2b59cbaf0cdf9c9bb050d05f94175.mesh"]
-
-source_file="res://assets/models/OBJ format - food/peanutButter.obj"
-dest_files=["res://.godot/imported/peanutButter.obj-27f2b59cbaf0cdf9c9bb050d05f94175.mesh", "res://.godot/imported/peanutButter.obj-27f2b59cbaf0cdf9c9bb050d05f94175.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b60d88cc0e396a579aec24abcfa64bd7ceca57b3450d450f63c72b0f925e46f
+size 623

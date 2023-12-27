@@ -1,32 +1,3 @@
-[remap]
-
-importer="scene"
-importer_version=1
-type="PackedScene"
-uid="uid://cv3u4mp82o4ym"
-path="res://.godot/imported/bookcaseClosedWide.glb-e4f778cb368ad80439e44d08f6669f5a.scn"
-
-[deps]
-
-source_file="res://assets/models/GLTF format/bookcaseClosedWide.glb"
-dest_files=["res://.godot/imported/bookcaseClosedWide.glb-e4f778cb368ad80439e44d08f6669f5a.scn"]
-
-[params]
-
-nodes/root_type="Node3D"
-nodes/root_name="Scene Root"
-nodes/apply_root_scale=true
-nodes/root_scale=1.0
-meshes/ensure_tangents=true
-meshes/generate_lods=true
-meshes/create_shadow_meshes=true
-meshes/light_baking=1
-meshes/lightmap_texel_size=0.2
-skins/use_named_skins=true
-animation/import=true
-animation/fps=30
-animation/trimming=false
-animation/remove_immutable_tracks=true
-import_script/path=""
-_subresources={}
-gltf/embedded_image_handling=1
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b3dff2ce21d9a99ae63046ad50afd5dbf60ea245359a1e40a1ac52b96cd9306
+size 808

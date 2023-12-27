@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://b64xd27uq1iq3"
-path="res://.godot/imported/taco.obj-9a5dfa912d431c0fe6c2681146a4dd71.mesh"
-
-[deps]
-
-files=["res://.godot/imported/taco.obj-9a5dfa912d431c0fe6c2681146a4dd71.mesh"]
-
-source_file="res://assets/models/OBJ format - food/taco.obj"
-dest_files=["res://.godot/imported/taco.obj-9a5dfa912d431c0fe6c2681146a4dd71.mesh", "res://.godot/imported/taco.obj-9a5dfa912d431c0fe6c2681146a4dd71.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7df483bd5c1b4e1b9f0818d5a9d1b0638fce66e2886428a0104ed04c26e9a9e
+size 583

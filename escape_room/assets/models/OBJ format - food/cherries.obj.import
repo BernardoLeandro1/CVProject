@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://xyry6555o3or"
-path="res://.godot/imported/cherries.obj-6192dc84e7aa77f2be7ebbc1519ffadb.mesh"
-
-[deps]
-
-files=["res://.godot/imported/cherries.obj-6192dc84e7aa77f2be7ebbc1519ffadb.mesh"]
-
-source_file="res://assets/models/OBJ format - food/cherries.obj"
-dest_files=["res://.godot/imported/cherries.obj-6192dc84e7aa77f2be7ebbc1519ffadb.mesh", "res://.godot/imported/cherries.obj-6192dc84e7aa77f2be7ebbc1519ffadb.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:5882e8b8d6c853047e3c3de66d47a31526bc36310fc63470792fedee3e5da940
+size 602

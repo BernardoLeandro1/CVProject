@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://okbe6gdao1a7"
-path="res://.godot/imported/cabinetBed.obj-be67a203eb7d851a77945280e32053fe.mesh"
-
-[deps]
-
-files=["res://.godot/imported/cabinetBed.obj-be67a203eb7d851a77945280e32053fe.mesh"]
-
-source_file="res://assets/models/OBJ format/cabinetBed.obj"
-dest_files=["res://.godot/imported/cabinetBed.obj-be67a203eb7d851a77945280e32053fe.mesh", "res://.godot/imported/cabinetBed.obj-be67a203eb7d851a77945280e32053fe.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:18acdac1528e018ddf3a75ae864a36e28d836ed03344e09fbec4a5fd5046c95b
+size 605

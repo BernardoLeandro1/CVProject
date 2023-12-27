@@ -1,11 +1,3 @@
-# Created by Kenney (www.kenney.nl)
-
-newmtl brownLight
-Kd 0.9764706 0.772549 0.5490196
-
-newmtl brownDark
-Kd 0.6392157 0.3882353 0.2784314
-
-newmtl yellow
-Kd 0.9607843 0.7254902 0.2588235
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:33801c3051f07ae52b420a0c69cd0b2308da8292822c07e866a4ac6a64b24bb0
+size 187

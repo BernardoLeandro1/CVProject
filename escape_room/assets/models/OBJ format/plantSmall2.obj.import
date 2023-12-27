@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://vn7c5drytiwy"
-path="res://.godot/imported/plantSmall2.obj-05b844afe00e1954179fddea266f292b.mesh"
-
-[deps]
-
-files=["res://.godot/imported/plantSmall2.obj-05b844afe00e1954179fddea266f292b.mesh"]
-
-source_file="res://assets/models/OBJ format/plantSmall2.obj"
-dest_files=["res://.godot/imported/plantSmall2.obj-05b844afe00e1954179fddea266f292b.mesh", "res://.godot/imported/plantSmall2.obj-05b844afe00e1954179fddea266f292b.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:59fddbe3eb28d73e07d03fb7bd87728a9f7bac68c4f3662094600c91c192b677
+size 610

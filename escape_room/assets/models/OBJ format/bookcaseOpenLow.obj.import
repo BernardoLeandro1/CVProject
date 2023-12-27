@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://xdplek0k4yh2"
-path="res://.godot/imported/bookcaseOpenLow.obj-71cd6cb5e919a9a9794a1d35047a2d67.mesh"
-
-[deps]
-
-files=["res://.godot/imported/bookcaseOpenLow.obj-71cd6cb5e919a9a9794a1d35047a2d67.mesh"]
-
-source_file="res://assets/models/OBJ format/bookcaseOpenLow.obj"
-dest_files=["res://.godot/imported/bookcaseOpenLow.obj-71cd6cb5e919a9a9794a1d35047a2d67.mesh", "res://.godot/imported/bookcaseOpenLow.obj-71cd6cb5e919a9a9794a1d35047a2d67.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:2262e21c13532ffbeeef90cc5d30f90239f6920cbf3c6550e767ec7be219fa97
+size 630

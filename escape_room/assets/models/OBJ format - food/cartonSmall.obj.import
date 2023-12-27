@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://b3req1j8avudo"
-path="res://.godot/imported/cartonSmall.obj-47ebc7c822209950ab71e2e74dc3ca7a.mesh"
-
-[deps]
-
-files=["res://.godot/imported/cartonSmall.obj-47ebc7c822209950ab71e2e74dc3ca7a.mesh"]
-
-source_file="res://assets/models/OBJ format - food/cartonSmall.obj"
-dest_files=["res://.godot/imported/cartonSmall.obj-47ebc7c822209950ab71e2e74dc3ca7a.mesh", "res://.godot/imported/cartonSmall.obj-47ebc7c822209950ab71e2e74dc3ca7a.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:9aca31672cf09a7a10b8f47fc11174493098faefcaac0674ed89e0404ff0269e
+size 618

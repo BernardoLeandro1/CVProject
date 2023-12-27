@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://bavf2blk2hf7i"
-path="res://.godot/imported/kitchenFridgeLarge.obj-1a63e2e412a20381c4dc515f7160801d.mesh"
-
-[deps]
-
-files=["res://.godot/imported/kitchenFridgeLarge.obj-1a63e2e412a20381c4dc515f7160801d.mesh"]
-
-source_file="res://assets/models/OBJ format/kitchenFridgeLarge.obj"
-dest_files=["res://.godot/imported/kitchenFridgeLarge.obj-1a63e2e412a20381c4dc515f7160801d.mesh", "res://.godot/imported/kitchenFridgeLarge.obj-1a63e2e412a20381c4dc515f7160801d.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd3048a9c3420474637c99e9ef149d1789dfcf8ff7f43bd71c7c2cfafd472382
+size 646

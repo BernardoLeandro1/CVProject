@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://d0xgog5ha7ckp"
-path="res://.godot/imported/stoolBarSquare.obj-492b28071965f0f0aa43fea069b95003.mesh"
-
-[deps]
-
-files=["res://.godot/imported/stoolBarSquare.obj-492b28071965f0f0aa43fea069b95003.mesh"]
-
-source_file="res://assets/models/OBJ format/stoolBarSquare.obj"
-dest_files=["res://.godot/imported/stoolBarSquare.obj-492b28071965f0f0aa43fea069b95003.mesh", "res://.godot/imported/stoolBarSquare.obj-492b28071965f0f0aa43fea069b95003.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:d51b6fb8f3bb96891522d833f36fc56be0a156ca49d3fba552a0ff09ceefb798
+size 626

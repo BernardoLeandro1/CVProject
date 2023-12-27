@@ -1,11 +1,3 @@
-Model Information:
-* title:	Outdoor Cellar Door
-* source:	https://sketchfab.com/3d-models/outdoor-cellar-door-1d8736ede47149c0be75c99e47266047
-* author:	s4shko (https://sketchfab.com/s4shko_)
-
-Model License:
-* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
-* requirements:	Author must be credited. Commercial use is allowed.
-
-If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Outdoor Cellar Door" (https://sketchfab.com/3d-models/outdoor-cellar-door-1d8736ede47149c0be75c99e47266047) by s4shko (https://sketchfab.com/s4shko_) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5476c42897e8485c4840b3ec1c43ddf537ee2a5827607f15d2cdf279b82666a
+size 690

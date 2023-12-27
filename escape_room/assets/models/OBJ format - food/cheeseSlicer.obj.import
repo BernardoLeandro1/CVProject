@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://du0br04xmp8df"
-path="res://.godot/imported/cheeseSlicer.obj-9e0d6dcbabdd0fd872aa333d696045b7.mesh"
-
-[deps]
-
-files=["res://.godot/imported/cheeseSlicer.obj-9e0d6dcbabdd0fd872aa333d696045b7.mesh"]
-
-source_file="res://assets/models/OBJ format - food/cheeseSlicer.obj"
-dest_files=["res://.godot/imported/cheeseSlicer.obj-9e0d6dcbabdd0fd872aa333d696045b7.mesh", "res://.godot/imported/cheeseSlicer.obj-9e0d6dcbabdd0fd872aa333d696045b7.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b707bded553ab3feb4e4f7c7428e7890fac12d0c62414a06a32aa3fe688432c
+size 623

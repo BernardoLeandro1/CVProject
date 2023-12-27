@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://b7nmqo532xwjh"
-path="res://.godot/imported/eggHalf.obj-d235896f4e6aea7c870e1d55937c0106.mesh"
-
-[deps]
-
-files=["res://.godot/imported/eggHalf.obj-d235896f4e6aea7c870e1d55937c0106.mesh"]
-
-source_file="res://assets/models/OBJ format - food/eggHalf.obj"
-dest_files=["res://.godot/imported/eggHalf.obj-d235896f4e6aea7c870e1d55937c0106.mesh", "res://.godot/imported/eggHalf.obj-d235896f4e6aea7c870e1d55937c0106.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:aad8c61e201d382100de39088b33df8e7c6b5f40a3d9c2b371fdd3972a21be53
+size 598

@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://bighbhf2rm5yy"
-path="res://.godot/imported/kitchenMicrowave.obj-794b5aeff17e9d931af09d26729cb534.mesh"
-
-[deps]
-
-files=["res://.godot/imported/kitchenMicrowave.obj-794b5aeff17e9d931af09d26729cb534.mesh"]
-
-source_file="res://assets/models/OBJ format/kitchenMicrowave.obj"
-dest_files=["res://.godot/imported/kitchenMicrowave.obj-794b5aeff17e9d931af09d26729cb534.mesh", "res://.godot/imported/kitchenMicrowave.obj-794b5aeff17e9d931af09d26729cb534.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b1b736779dd2793fc6691adcd5a5fe32ebb70789f686b2257ab72e10d135337
+size 636

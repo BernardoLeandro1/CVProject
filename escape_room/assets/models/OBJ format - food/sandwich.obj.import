@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://dmqjhw50ha85p"
-path="res://.godot/imported/sandwich.obj-8816022ea647d9c75030c16ce4bc725a.mesh"
-
-[deps]
-
-files=["res://.godot/imported/sandwich.obj-8816022ea647d9c75030c16ce4bc725a.mesh"]
-
-source_file="res://assets/models/OBJ format - food/sandwich.obj"
-dest_files=["res://.godot/imported/sandwich.obj-8816022ea647d9c75030c16ce4bc725a.mesh", "res://.godot/imported/sandwich.obj-8816022ea647d9c75030c16ce4bc725a.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5efcfa1b9b6d619ddc4d4b4b56d0ce30e2b328c07a627beea61c901a4e18a21
+size 603

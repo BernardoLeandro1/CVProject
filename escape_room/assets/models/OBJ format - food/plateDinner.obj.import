@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://8vfspeptk7bv"
-path="res://.godot/imported/plateDinner.obj-f3f70e33f282441682082a3e3480caf4.mesh"
-
-[deps]
-
-files=["res://.godot/imported/plateDinner.obj-f3f70e33f282441682082a3e3480caf4.mesh"]
-
-source_file="res://assets/models/OBJ format - food/plateDinner.obj"
-dest_files=["res://.godot/imported/plateDinner.obj-f3f70e33f282441682082a3e3480caf4.mesh", "res://.godot/imported/plateDinner.obj-f3f70e33f282441682082a3e3480caf4.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:daf653a05ffeae0d65e60b7be74f9edac57f084535c54e3b28e75d1d6c43b9b3
+size 617

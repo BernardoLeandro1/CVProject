@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://hrd7i8ya5yfb"
-path="res://.godot/imported/bathtub.obj-304eaa2ebd9a9baa7c4f9c006a817ec3.mesh"
-
-[deps]
-
-files=["res://.godot/imported/bathtub.obj-304eaa2ebd9a9baa7c4f9c006a817ec3.mesh"]
-
-source_file="res://assets/models/OBJ format/bathtub.obj"
-dest_files=["res://.godot/imported/bathtub.obj-304eaa2ebd9a9baa7c4f9c006a817ec3.mesh", "res://.godot/imported/bathtub.obj-304eaa2ebd9a9baa7c4f9c006a817ec3.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e2094d478d6aa5448180cb32913a0b9aad141407032829a8e512735372468a2
+size 590

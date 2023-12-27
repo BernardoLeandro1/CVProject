@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://b16noalvlshlv"
-path="res://.godot/imported/can.obj-23e845b22460d21b0b845fae0dbcf7f0.mesh"
-
-[deps]
-
-files=["res://.godot/imported/can.obj-23e845b22460d21b0b845fae0dbcf7f0.mesh"]
-
-source_file="res://assets/models/OBJ format - food/can.obj"
-dest_files=["res://.godot/imported/can.obj-23e845b22460d21b0b845fae0dbcf7f0.mesh", "res://.godot/imported/can.obj-23e845b22460d21b0b845fae0dbcf7f0.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:df0690a21ebf4ffe74078175cdf4eb3ae1231b2719f526ee03cb3b9dd2f3f13e
+size 578

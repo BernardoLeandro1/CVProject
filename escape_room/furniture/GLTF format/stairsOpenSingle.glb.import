@@ -1,32 +1,3 @@
-[remap]
-
-importer="scene"
-importer_version=1
-type="PackedScene"
-uid="uid://dhyyxoeu0t4x2"
-path="res://.godot/imported/stairsOpenSingle.glb-a7274484fe59f2da236f8a137480b4c1.scn"
-
-[deps]
-
-source_file="res://furniture/GLTF format/stairsOpenSingle.glb"
-dest_files=["res://.godot/imported/stairsOpenSingle.glb-a7274484fe59f2da236f8a137480b4c1.scn"]
-
-[params]
-
-nodes/root_type="Node3D"
-nodes/root_name="Scene Root"
-nodes/apply_root_scale=true
-nodes/root_scale=1.0
-meshes/ensure_tangents=true
-meshes/generate_lods=true
-meshes/create_shadow_meshes=true
-meshes/light_baking=1
-meshes/lightmap_texel_size=0.2
-skins/use_named_skins=true
-animation/import=true
-animation/fps=30
-animation/trimming=false
-animation/remove_immutable_tracks=true
-import_script/path=""
-_subresources={}
-gltf/embedded_image_handling=1
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f731fd07ea00fa3010cfd8de7aeed890749006b2ad42db9608e2a234bcce7f2
+size 798

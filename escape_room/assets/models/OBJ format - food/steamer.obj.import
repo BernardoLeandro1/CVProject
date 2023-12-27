@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://btk1h6s0dmxsr"
-path="res://.godot/imported/steamer.obj-e0515cae67e149557135c220ef0a74c6.mesh"
-
-[deps]
-
-files=["res://.godot/imported/steamer.obj-e0515cae67e149557135c220ef0a74c6.mesh"]
-
-source_file="res://assets/models/OBJ format - food/steamer.obj"
-dest_files=["res://.godot/imported/steamer.obj-e0515cae67e149557135c220ef0a74c6.mesh", "res://.godot/imported/steamer.obj-e0515cae67e149557135c220ef0a74c6.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:af67edc2ccec2e253b0bb17bf07c83aaef55bf3e431bdbcb34909db7aed406be
+size 598

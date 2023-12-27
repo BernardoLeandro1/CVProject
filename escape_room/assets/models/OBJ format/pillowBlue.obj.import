@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://dqrv6l6mx4n4r"
-path="res://.godot/imported/pillowBlue.obj-f1ac7680ece219a4b475db8ee57dd6b2.mesh"
-
-[deps]
-
-files=["res://.godot/imported/pillowBlue.obj-f1ac7680ece219a4b475db8ee57dd6b2.mesh"]
-
-source_file="res://assets/models/OBJ format/pillowBlue.obj"
-dest_files=["res://.godot/imported/pillowBlue.obj-f1ac7680ece219a4b475db8ee57dd6b2.mesh", "res://.godot/imported/pillowBlue.obj-f1ac7680ece219a4b475db8ee57dd6b2.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe0dd27e39ca492fdb783008b21a759411b42d6500f82b489edc4a086ce6eecd
+size 606

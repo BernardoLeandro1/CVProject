@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://8w7y5kh4pgjx"
-path="res://.godot/imported/burgerCheese.obj-45832205916998b1cca4a274941ba170.mesh"
-
-[deps]
-
-files=["res://.godot/imported/burgerCheese.obj-45832205916998b1cca4a274941ba170.mesh"]
-
-source_file="res://assets/models/OBJ format - food/burgerCheese.obj"
-dest_files=["res://.godot/imported/burgerCheese.obj-45832205916998b1cca4a274941ba170.mesh", "res://.godot/imported/burgerCheese.obj-45832205916998b1cca4a274941ba170.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:14ce1c0ff1c454f2b70cae99ff1bac3158b31efe3882ca536eeef7b67e3545bb
+size 622

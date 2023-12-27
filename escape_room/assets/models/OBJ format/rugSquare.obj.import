@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://bliag1ismgmnp"
-path="res://.godot/imported/rugSquare.obj-b0e7a6e68298225adec03cff023b6804.mesh"
-
-[deps]
-
-files=["res://.godot/imported/rugSquare.obj-b0e7a6e68298225adec03cff023b6804.mesh"]
-
-source_file="res://assets/models/OBJ format/rugSquare.obj"
-dest_files=["res://.godot/imported/rugSquare.obj-b0e7a6e68298225adec03cff023b6804.mesh", "res://.godot/imported/rugSquare.obj-b0e7a6e68298225adec03cff023b6804.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:6fa89f56d0782bdf49d8f636416c8b5347f2b303f6e9cb0da43b86f09bd19299
+size 601

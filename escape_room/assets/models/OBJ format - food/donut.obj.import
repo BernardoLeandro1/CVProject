@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://fp1jcg3upihi"
-path="res://.godot/imported/donut.obj-41dcf10086f08a153d1471167bab5d88.mesh"
-
-[deps]
-
-files=["res://.godot/imported/donut.obj-41dcf10086f08a153d1471167bab5d88.mesh"]
-
-source_file="res://assets/models/OBJ format - food/donut.obj"
-dest_files=["res://.godot/imported/donut.obj-41dcf10086f08a153d1471167bab5d88.mesh", "res://.godot/imported/donut.obj-41dcf10086f08a153d1471167bab5d88.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:967238f96fd217f543b9492ef92fa60feb129284b3ecdc238042a8320e8e7f15
+size 587

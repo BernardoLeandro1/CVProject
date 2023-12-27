@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://cxuhydv6lradr"
-path="res://.godot/imported/chairRounded.obj-44806ec5c6d7150b27cb6cb821f3cce7.mesh"
-
-[deps]
-
-files=["res://.godot/imported/chairRounded.obj-44806ec5c6d7150b27cb6cb821f3cce7.mesh"]
-
-source_file="res://assets/models/OBJ format/chairRounded.obj"
-dest_files=["res://.godot/imported/chairRounded.obj-44806ec5c6d7150b27cb6cb821f3cce7.mesh", "res://.godot/imported/chairRounded.obj-44806ec5c6d7150b27cb6cb821f3cce7.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:04956d94006439aa3ad2bdd04a5764e5eb927701621bd63abda5833229f1cef1
+size 616

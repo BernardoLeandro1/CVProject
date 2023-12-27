@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://ucclgwxx74eg"
-path="res://.godot/imported/shower.obj-d99911d570d7e83313430a4bc43334f1.mesh"
-
-[deps]
-
-files=["res://.godot/imported/shower.obj-d99911d570d7e83313430a4bc43334f1.mesh"]
-
-source_file="res://assets/models/OBJ format/shower.obj"
-dest_files=["res://.godot/imported/shower.obj-d99911d570d7e83313430a4bc43334f1.mesh", "res://.godot/imported/shower.obj-d99911d570d7e83313430a4bc43334f1.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:99eb62d833d6648f12b970f04e1ff94fb400b26e2aa7b8b8941a8b3ab7ed5362
+size 585

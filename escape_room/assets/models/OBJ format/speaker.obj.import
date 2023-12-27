@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://bkul87ncyq8kq"
-path="res://.godot/imported/speaker.obj-3d2b5d1684f09fa0af7482c8873bfe9a.mesh"
-
-[deps]
-
-files=["res://.godot/imported/speaker.obj-3d2b5d1684f09fa0af7482c8873bfe9a.mesh"]
-
-source_file="res://assets/models/OBJ format/speaker.obj"
-dest_files=["res://.godot/imported/speaker.obj-3d2b5d1684f09fa0af7482c8873bfe9a.mesh", "res://.godot/imported/speaker.obj-3d2b5d1684f09fa0af7482c8873bfe9a.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbf681f37f22ad189d10630d13a83905116fd6609a0cff3a854c41b1300d7d7d
+size 591

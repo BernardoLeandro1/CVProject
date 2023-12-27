@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://02tumo0watj2"
-path="res://.godot/imported/washer.obj-8f31594b97cb2f0a6a4ae8acda4d279e.mesh"
-
-[deps]
-
-files=["res://.godot/imported/washer.obj-8f31594b97cb2f0a6a4ae8acda4d279e.mesh"]
-
-source_file="res://assets/models/OBJ format/washer.obj"
-dest_files=["res://.godot/imported/washer.obj-8f31594b97cb2f0a6a4ae8acda4d279e.mesh", "res://.godot/imported/washer.obj-8f31594b97cb2f0a6a4ae8acda4d279e.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ca68170ebea1c17130d840aa66c3fd57812481992f83843b83ffbe258641137
+size 585

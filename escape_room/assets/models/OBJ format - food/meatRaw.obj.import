@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://du2brh1aq5wbc"
-path="res://.godot/imported/meatRaw.obj-24c79bb105a8c4b62992fd5af70e731c.mesh"
-
-[deps]
-
-files=["res://.godot/imported/meatRaw.obj-24c79bb105a8c4b62992fd5af70e731c.mesh"]
-
-source_file="res://assets/models/OBJ format - food/meatRaw.obj"
-dest_files=["res://.godot/imported/meatRaw.obj-24c79bb105a8c4b62992fd5af70e731c.mesh", "res://.godot/imported/meatRaw.obj-24c79bb105a8c4b62992fd5af70e731c.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:61901517bbcf9d68e02186edd1b960748c8353eda20dda72a066c0991d7b70b4
+size 598

@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://c1jvk7q60iis2"
-path="res://.godot/imported/mushroom.obj-9690ce0a70dfaad39413b3da1c6b055c.mesh"
-
-[deps]
-
-files=["res://.godot/imported/mushroom.obj-9690ce0a70dfaad39413b3da1c6b055c.mesh"]
-
-source_file="res://assets/models/OBJ format - food/mushroom.obj"
-dest_files=["res://.godot/imported/mushroom.obj-9690ce0a70dfaad39413b3da1c6b055c.mesh", "res://.godot/imported/mushroom.obj-9690ce0a70dfaad39413b3da1c6b055c.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:98ed95a8d522e421154e1557f6ca80e6fea699df66e6766cd2126bc26820b896
+size 603

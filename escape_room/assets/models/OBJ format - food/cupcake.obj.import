@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://gwnjnq45s4u1"
-path="res://.godot/imported/cupcake.obj-931a4419bef87e2da013155ddea5b18a.mesh"
-
-[deps]
-
-files=["res://.godot/imported/cupcake.obj-931a4419bef87e2da013155ddea5b18a.mesh"]
-
-source_file="res://assets/models/OBJ format - food/cupcake.obj"
-dest_files=["res://.godot/imported/cupcake.obj-931a4419bef87e2da013155ddea5b18a.mesh", "res://.godot/imported/cupcake.obj-931a4419bef87e2da013155ddea5b18a.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:40cc849e30fcdf53ea94a248b8deeff89c316da1d3bfb4f39dd437ae4e679596
+size 597

@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://05llp38alnh7"
-path="res://.godot/imported/kitchenCabinetCornerRound.obj-8a63c3ed5db58591690f4666a8645e5b.mesh"
-
-[deps]
-
-files=["res://.godot/imported/kitchenCabinetCornerRound.obj-8a63c3ed5db58591690f4666a8645e5b.mesh"]
-
-source_file="res://assets/models/OBJ format/kitchenCabinetCornerRound.obj"
-dest_files=["res://.godot/imported/kitchenCabinetCornerRound.obj-8a63c3ed5db58591690f4666a8645e5b.mesh", "res://.godot/imported/kitchenCabinetCornerRound.obj-8a63c3ed5db58591690f4666a8645e5b.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:77f0a9b6bb05e81b1e52744b0611fc2166a5b310b37caed51c7717d16045845b
+size 680

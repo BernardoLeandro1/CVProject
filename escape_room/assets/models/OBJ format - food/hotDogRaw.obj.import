@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://dmits3f3rax65"
-path="res://.godot/imported/hotDogRaw.obj-1d33f5dcb3a2bc14cb32891a19701476.mesh"
-
-[deps]
-
-files=["res://.godot/imported/hotDogRaw.obj-1d33f5dcb3a2bc14cb32891a19701476.mesh"]
-
-source_file="res://assets/models/OBJ format - food/hotDogRaw.obj"
-dest_files=["res://.godot/imported/hotDogRaw.obj-1d33f5dcb3a2bc14cb32891a19701476.mesh", "res://.godot/imported/hotDogRaw.obj-1d33f5dcb3a2bc14cb32891a19701476.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:5898db63f12a752f08d6a79951b94a3977133094bd78611b9cb63148b7322e48
+size 608

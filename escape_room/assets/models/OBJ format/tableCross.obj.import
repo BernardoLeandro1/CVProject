@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://dvl5dmp5b0i40"
-path="res://.godot/imported/tableCross.obj-41e263d0959a12360117d84a7ed07998.mesh"
-
-[deps]
-
-files=["res://.godot/imported/tableCross.obj-41e263d0959a12360117d84a7ed07998.mesh"]
-
-source_file="res://assets/models/OBJ format/tableCross.obj"
-dest_files=["res://.godot/imported/tableCross.obj-41e263d0959a12360117d84a7ed07998.mesh", "res://.godot/imported/tableCross.obj-41e263d0959a12360117d84a7ed07998.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:be1914093a56df8d530d534490ed4a077ea6d4779009afbc3fb3e90ae1000925
+size 606

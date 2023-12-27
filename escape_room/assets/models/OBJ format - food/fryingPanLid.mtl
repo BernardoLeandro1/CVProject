@@ -1,11 +1,3 @@
-# Created by Kenney (www.kenney.nl)
-
-newmtl greyDark
-Kd 0.5294118 0.6 0.6666667
-
-newmtl glass
-Kd 0.945098 0.9490196 0.9647059
-
-newmtl _defaultMat
-Kd 1 1 1
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:32e9344250a3ca6d21e3d6caae4aa1b89615bfb7c7d00bd629853a9c764f830a
+size 156

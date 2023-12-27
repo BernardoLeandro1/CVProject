@@ -1,32 +1,3 @@
-[remap]
-
-importer="scene"
-importer_version=1
-type="PackedScene"
-uid="uid://ns2b3ifgitwx"
-path="res://.godot/imported/kitchenCabinet.glb-2dd7e259d44401c79369f283062646ce.scn"
-
-[deps]
-
-source_file="res://assets/models/GLTF format/kitchenCabinet.glb"
-dest_files=["res://.godot/imported/kitchenCabinet.glb-2dd7e259d44401c79369f283062646ce.scn"]
-
-[params]
-
-nodes/root_type="Node3D"
-nodes/root_name="Scene Root"
-nodes/apply_root_scale=true
-nodes/root_scale=1.0
-meshes/ensure_tangents=true
-meshes/generate_lods=true
-meshes/create_shadow_meshes=true
-meshes/light_baking=1
-meshes/lightmap_texel_size=0.2
-skins/use_named_skins=true
-animation/import=true
-animation/fps=30
-animation/trimming=false
-animation/remove_immutable_tracks=true
-import_script/path=""
-_subresources={}
-gltf/embedded_image_handling=1
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b851773fca5dc98ace663868f8a632a1b1dae8e2cdceb446f3e927d2646b2dd
+size 795

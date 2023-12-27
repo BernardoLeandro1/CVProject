@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://d25bq5ljwgx6b"
-path="res://.godot/imported/tomatoSlice.obj-44daa2e02c80b04031ead63fa8297008.mesh"
-
-[deps]
-
-files=["res://.godot/imported/tomatoSlice.obj-44daa2e02c80b04031ead63fa8297008.mesh"]
-
-source_file="res://assets/models/OBJ format - food/tomatoSlice.obj"
-dest_files=["res://.godot/imported/tomatoSlice.obj-44daa2e02c80b04031ead63fa8297008.mesh", "res://.godot/imported/tomatoSlice.obj-44daa2e02c80b04031ead63fa8297008.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:63bc9c71ec1ccbaad52e97b2cfae229fef8d45f618a0d443241584097ce9f906
+size 618

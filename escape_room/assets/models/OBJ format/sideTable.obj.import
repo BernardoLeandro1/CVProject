@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://clm13qxlu1pyb"
-path="res://.godot/imported/sideTable.obj-63675b22788753935beaa3a8a8a377e9.mesh"
-
-[deps]
-
-files=["res://.godot/imported/sideTable.obj-63675b22788753935beaa3a8a8a377e9.mesh"]
-
-source_file="res://assets/models/OBJ format/sideTable.obj"
-dest_files=["res://.godot/imported/sideTable.obj-63675b22788753935beaa3a8a8a377e9.mesh", "res://.godot/imported/sideTable.obj-63675b22788753935beaa3a8a8a377e9.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f5cad8561f52dfd2afb3c5aa096af24bafbecbd39df1887af534131f71b93e3
+size 601

@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://bohc3aw10fjwb"
-path="res://.godot/imported/cardboardBoxOpen.obj-2d3c5388993778800dd19f037849c34d.mesh"
-
-[deps]
-
-files=["res://.godot/imported/cardboardBoxOpen.obj-2d3c5388993778800dd19f037849c34d.mesh"]
-
-source_file="res://assets/models/OBJ format/cardboardBoxOpen.obj"
-dest_files=["res://.godot/imported/cardboardBoxOpen.obj-2d3c5388993778800dd19f037849c34d.mesh", "res://.godot/imported/cardboardBoxOpen.obj-2d3c5388993778800dd19f037849c34d.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:705119682a408c0c17a6ba78d56c2231c66e347d55a17be6febdf54d1bfd9af8
+size 636

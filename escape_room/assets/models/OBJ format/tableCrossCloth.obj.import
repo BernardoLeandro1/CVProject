@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://k3iimmsv1csg"
-path="res://.godot/imported/tableCrossCloth.obj-bc8852b861080a842e56eac6f2f34e4e.mesh"
-
-[deps]
-
-files=["res://.godot/imported/tableCrossCloth.obj-bc8852b861080a842e56eac6f2f34e4e.mesh"]
-
-source_file="res://assets/models/OBJ format/tableCrossCloth.obj"
-dest_files=["res://.godot/imported/tableCrossCloth.obj-bc8852b861080a842e56eac6f2f34e4e.mesh", "res://.godot/imported/tableCrossCloth.obj-bc8852b861080a842e56eac6f2f34e4e.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:665b14fd579bd39ecbedd789aafdb86c13d5b6e0c78ab2f00059ca057eafc5e6
+size 630

@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://g6d1nu33k8ip"
-path="res://.godot/imported/cabinetTelevisionDoors.obj-d9f4e2fa362419f847d0d1826b3c64bf.mesh"
-
-[deps]
-
-files=["res://.godot/imported/cabinetTelevisionDoors.obj-d9f4e2fa362419f847d0d1826b3c64bf.mesh"]
-
-source_file="res://assets/models/OBJ format/cabinetTelevisionDoors.obj"
-dest_files=["res://.godot/imported/cabinetTelevisionDoors.obj-d9f4e2fa362419f847d0d1826b3c64bf.mesh", "res://.godot/imported/cabinetTelevisionDoors.obj-d9f4e2fa362419f847d0d1826b3c64bf.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:a377daa2ada8d8b1f41225a5edb707c4ce823ae00878c836b0a30ffc92cb7748
+size 665

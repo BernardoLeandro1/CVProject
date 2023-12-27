@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://d1ut8w1mmy2e2"
-path="res://.godot/imported/styrofoamDinner.obj-fb26bc30774857cd95cf2f861bd2d440.mesh"
-
-[deps]
-
-files=["res://.godot/imported/styrofoamDinner.obj-fb26bc30774857cd95cf2f861bd2d440.mesh"]
-
-source_file="res://assets/models/OBJ format - food/styrofoamDinner.obj"
-dest_files=["res://.godot/imported/styrofoamDinner.obj-fb26bc30774857cd95cf2f861bd2d440.mesh", "res://.godot/imported/styrofoamDinner.obj-fb26bc30774857cd95cf2f861bd2d440.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:5dd92b4797ed43abeb9ce082d1edf30f1988d8eb61bdfc746b47d0ee01bdd23e
+size 638

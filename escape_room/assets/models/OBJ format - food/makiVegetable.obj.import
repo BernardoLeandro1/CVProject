@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://bc2aa3eq67ely"
-path="res://.godot/imported/makiVegetable.obj-c701acc5cb823efd55a11d31705e3859.mesh"
-
-[deps]
-
-files=["res://.godot/imported/makiVegetable.obj-c701acc5cb823efd55a11d31705e3859.mesh"]
-
-source_file="res://assets/models/OBJ format - food/makiVegetable.obj"
-dest_files=["res://.godot/imported/makiVegetable.obj-c701acc5cb823efd55a11d31705e3859.mesh", "res://.godot/imported/makiVegetable.obj-c701acc5cb823efd55a11d31705e3859.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0c097da78ec296028881462a17b7dedb1dd3775668ef49d76c436105a865cf2
+size 628

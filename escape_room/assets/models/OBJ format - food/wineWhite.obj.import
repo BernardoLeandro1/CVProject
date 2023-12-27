@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://cbwwn04o1lorp"
-path="res://.godot/imported/wineWhite.obj-6a9db0c1751a72ea188292243da0fd89.mesh"
-
-[deps]
-
-files=["res://.godot/imported/wineWhite.obj-6a9db0c1751a72ea188292243da0fd89.mesh"]
-
-source_file="res://assets/models/OBJ format - food/wineWhite.obj"
-dest_files=["res://.godot/imported/wineWhite.obj-6a9db0c1751a72ea188292243da0fd89.mesh", "res://.godot/imported/wineWhite.obj-6a9db0c1751a72ea188292243da0fd89.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:76664bcb19ca8a0f1d3587e1406b171d295a06f545f9446156be2e1c1964e449
+size 608

@@ -1,8 +1,3 @@
-# Created by Kenney (www.kenney.nl)
-
-newmtl white
-Kd 0.945098 0.9490196 0.9647059
-
-newmtl pink
-Kd 1 0.5372549 0.5607843
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac7aa2870890734de9550e691596428fc99ced1d1c1d22f4e457ec569735b7c8
+size 121

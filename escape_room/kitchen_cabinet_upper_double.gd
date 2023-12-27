@@ -1,16 +1,3 @@
-extends StaticBody3D
-
-
-var open = false
-@onready var player := $"../../player"
-@onready var anim := $upper_cabinet_doors
-@onready var door := $"."
-
-
-func interact():
-	if !open:
-		anim.play("upper_cabinet_doors")
-		open = true
-	elif open:
-		anim.play_backwards("upper_cabinet_doors")
-		open = false
+version https://git-lfs.github.com/spec/v1
+oid sha256:a434979928c16bfd5ea9603efd3f086b4058be5aba21eae2b1e962e2d6a0eab4
+size 298

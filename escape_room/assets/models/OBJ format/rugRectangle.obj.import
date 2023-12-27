@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://d8kmc0k8jagk"
-path="res://.godot/imported/rugRectangle.obj-1b996bb34b1a76837472095c6b94897b.mesh"
-
-[deps]
-
-files=["res://.godot/imported/rugRectangle.obj-1b996bb34b1a76837472095c6b94897b.mesh"]
-
-source_file="res://assets/models/OBJ format/rugRectangle.obj"
-dest_files=["res://.godot/imported/rugRectangle.obj-1b996bb34b1a76837472095c6b94897b.mesh", "res://.godot/imported/rugRectangle.obj-1b996bb34b1a76837472095c6b94897b.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:453fd08823aaf71eaf15954ee641e4eefc4e09ba447dae921926b29c85be4f34
+size 615

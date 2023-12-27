@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://c448s82mfbdxm"
-path="res://.godot/imported/televisionVintage.obj-fea66a06e73e6c4060ac52274068a58d.mesh"
-
-[deps]
-
-files=["res://.godot/imported/televisionVintage.obj-fea66a06e73e6c4060ac52274068a58d.mesh"]
-
-source_file="res://assets/models/OBJ format/televisionVintage.obj"
-dest_files=["res://.godot/imported/televisionVintage.obj-fea66a06e73e6c4060ac52274068a58d.mesh", "res://.godot/imported/televisionVintage.obj-fea66a06e73e6c4060ac52274068a58d.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:36c9e15920aaebfa751f79cee74a384eac7450bcc224de16b969cceb96be60ce
+size 641

@@ -1,32 +1,3 @@
-[remap]
-
-importer="scene"
-importer_version=1
-type="PackedScene"
-uid="uid://31msiinso2oc"
-path="res://.godot/imported/cabinetTelevisionDoors.glb-8a32d19c753ae0557ecd4361ef004257.scn"
-
-[deps]
-
-source_file="res://furniture/GLTF format/cabinetTelevisionDoors.glb"
-dest_files=["res://.godot/imported/cabinetTelevisionDoors.glb-8a32d19c753ae0557ecd4361ef004257.scn"]
-
-[params]
-
-nodes/root_type="Node3D"
-nodes/root_name="Scene Root"
-nodes/apply_root_scale=true
-nodes/root_scale=1.0
-meshes/ensure_tangents=true
-meshes/generate_lods=true
-meshes/create_shadow_meshes=true
-meshes/light_baking=1
-meshes/lightmap_texel_size=0.2
-skins/use_named_skins=true
-animation/import=true
-animation/fps=30
-animation/trimming=false
-animation/remove_immutable_tracks=true
-import_script/path=""
-_subresources={}
-gltf/embedded_image_handling=1
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8e985b75134d26cc5346c19149fedacb7c0523a60201cc0319af73c5ac747e5
+size 815

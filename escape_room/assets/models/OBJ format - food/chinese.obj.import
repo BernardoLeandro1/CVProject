@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://lo2vsie8oi7s"
-path="res://.godot/imported/chinese.obj-e6d9fa00a401e1c30324ea2ad616c11f.mesh"
-
-[deps]
-
-files=["res://.godot/imported/chinese.obj-e6d9fa00a401e1c30324ea2ad616c11f.mesh"]
-
-source_file="res://assets/models/OBJ format - food/chinese.obj"
-dest_files=["res://.godot/imported/chinese.obj-e6d9fa00a401e1c30324ea2ad616c11f.mesh", "res://.godot/imported/chinese.obj-e6d9fa00a401e1c30324ea2ad616c11f.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8361562349f246881394c0a580791a3edb84391e98b5d4d075ded3eb0583ef4
+size 597

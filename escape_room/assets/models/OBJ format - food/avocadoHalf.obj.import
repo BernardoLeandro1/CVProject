@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://c8alws5i5it7m"
-path="res://.godot/imported/avocadoHalf.obj-9e7cf249647bf998c8bd6917b794e98c.mesh"
-
-[deps]
-
-files=["res://.godot/imported/avocadoHalf.obj-9e7cf249647bf998c8bd6917b794e98c.mesh"]
-
-source_file="res://assets/models/OBJ format - food/avocadoHalf.obj"
-dest_files=["res://.godot/imported/avocadoHalf.obj-9e7cf249647bf998c8bd6917b794e98c.mesh", "res://.godot/imported/avocadoHalf.obj-9e7cf249647bf998c8bd6917b794e98c.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea7eecfcf711d6a94f2027b094e9c6726d38300917f33d8f88c9228147457cff
+size 618

@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://byss174u1tqaa"
-path="res://.godot/imported/shakerPepper.obj-f4a9cca77396692ac8d98f5424b18c81.mesh"
-
-[deps]
-
-files=["res://.godot/imported/shakerPepper.obj-f4a9cca77396692ac8d98f5424b18c81.mesh"]
-
-source_file="res://assets/models/OBJ format - food/shakerPepper.obj"
-dest_files=["res://.godot/imported/shakerPepper.obj-f4a9cca77396692ac8d98f5424b18c81.mesh", "res://.godot/imported/shakerPepper.obj-f4a9cca77396692ac8d98f5424b18c81.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:89b709fa025559b7bf6efc2e2cf49bb01b74b6752eadc2479776a60335fce922
+size 623

@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://bet5x2nqm77c1"
-path="res://.godot/imported/pancakes.obj-96f1f91d09aaf6bf0bedbea40c3fe3ca.mesh"
-
-[deps]
-
-files=["res://.godot/imported/pancakes.obj-96f1f91d09aaf6bf0bedbea40c3fe3ca.mesh"]
-
-source_file="res://assets/models/OBJ format - food/pancakes.obj"
-dest_files=["res://.godot/imported/pancakes.obj-96f1f91d09aaf6bf0bedbea40c3fe3ca.mesh", "res://.godot/imported/pancakes.obj-96f1f91d09aaf6bf0bedbea40c3fe3ca.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:812616c31b106216fb19073f7c5e15d5491fdf98d5863a22a9ca87716c43991e
+size 603

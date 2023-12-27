@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://cjr6rj5vaxq7d"
-path="res://.godot/imported/bedSingle.obj-8cf4f4d0c0408e5af7411cfeb12e1613.mesh"
-
-[deps]
-
-files=["res://.godot/imported/bedSingle.obj-8cf4f4d0c0408e5af7411cfeb12e1613.mesh"]
-
-source_file="res://assets/models/OBJ format/bedSingle.obj"
-dest_files=["res://.godot/imported/bedSingle.obj-8cf4f4d0c0408e5af7411cfeb12e1613.mesh", "res://.godot/imported/bedSingle.obj-8cf4f4d0c0408e5af7411cfeb12e1613.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:e953a219b721c77ea81a73c6b174af3583a5a6394acb88035de42dfda31ae534
+size 601

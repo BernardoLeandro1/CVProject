@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://c3g248yq61524"
-path="res://.godot/imported/coatRackStanding.obj-88f70ac66ab190f52edcf098c24d76c4.mesh"
-
-[deps]
-
-files=["res://.godot/imported/coatRackStanding.obj-88f70ac66ab190f52edcf098c24d76c4.mesh"]
-
-source_file="res://assets/models/OBJ format/coatRackStanding.obj"
-dest_files=["res://.godot/imported/coatRackStanding.obj-88f70ac66ab190f52edcf098c24d76c4.mesh", "res://.godot/imported/coatRackStanding.obj-88f70ac66ab190f52edcf098c24d76c4.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:a03e228b14f9a9d838e2e4d2e996756f07b0a942e3a32fe9681f8457b5edd136
+size 636

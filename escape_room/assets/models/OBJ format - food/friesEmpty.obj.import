@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://dwlaj8wrs6wnl"
-path="res://.godot/imported/friesEmpty.obj-6305c63f1fd924a42c610f856705ce20.mesh"
-
-[deps]
-
-files=["res://.godot/imported/friesEmpty.obj-6305c63f1fd924a42c610f856705ce20.mesh"]
-
-source_file="res://assets/models/OBJ format - food/friesEmpty.obj"
-dest_files=["res://.godot/imported/friesEmpty.obj-6305c63f1fd924a42c610f856705ce20.mesh", "res://.godot/imported/friesEmpty.obj-6305c63f1fd924a42c610f856705ce20.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:efe6394f366220cc5d67d5d6f05541602791beb0a03b3c8ee062128f7d0d66d1
+size 613

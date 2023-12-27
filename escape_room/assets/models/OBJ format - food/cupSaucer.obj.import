@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://1g3bw0nxud3a"
-path="res://.godot/imported/cupSaucer.obj-fdc651e1d8c63355b81e7cbb664a5da8.mesh"
-
-[deps]
-
-files=["res://.godot/imported/cupSaucer.obj-fdc651e1d8c63355b81e7cbb664a5da8.mesh"]
-
-source_file="res://assets/models/OBJ format - food/cupSaucer.obj"
-dest_files=["res://.godot/imported/cupSaucer.obj-fdc651e1d8c63355b81e7cbb664a5da8.mesh", "res://.godot/imported/cupSaucer.obj-fdc651e1d8c63355b81e7cbb664a5da8.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:67a14493b98c5805e1897fe0e7bbf8b54de5159010b29163841999e46d39b70f
+size 607

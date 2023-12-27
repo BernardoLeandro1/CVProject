@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://hbuwt82jhss0"
-path="res://.godot/imported/pear.obj-f47cb3758689c1e0d030caa1a563018b.mesh"
-
-[deps]
-
-files=["res://.godot/imported/pear.obj-f47cb3758689c1e0d030caa1a563018b.mesh"]
-
-source_file="res://assets/models/OBJ format - food/pear.obj"
-dest_files=["res://.godot/imported/pear.obj-f47cb3758689c1e0d030caa1a563018b.mesh", "res://.godot/imported/pear.obj-f47cb3758689c1e0d030caa1a563018b.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:f442a5fb544454f76f9b03493621c709cfc79097c57c03530b27f263898d8fe6
+size 582

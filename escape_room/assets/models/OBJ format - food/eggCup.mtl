@@ -1,8 +1,3 @@
-# Created by Kenney (www.kenney.nl)
-
-newmtl _defaultMat
-Kd 1 1 1
-
-newmtl greyLight
-Kd 0.8431373 0.9019608 0.9529412
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fd6d6c44d8fb145e90ea5fc0544691edb6c01eba5b646408effe76bb02436c6
+size 117

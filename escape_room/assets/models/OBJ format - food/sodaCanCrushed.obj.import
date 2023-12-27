@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://bmlkgh74sjdik"
-path="res://.godot/imported/sodaCanCrushed.obj-7ef4dc9f2fca9b1d7465a2aff40a3028.mesh"
-
-[deps]
-
-files=["res://.godot/imported/sodaCanCrushed.obj-7ef4dc9f2fca9b1d7465a2aff40a3028.mesh"]
-
-source_file="res://assets/models/OBJ format - food/sodaCanCrushed.obj"
-dest_files=["res://.godot/imported/sodaCanCrushed.obj-7ef4dc9f2fca9b1d7465a2aff40a3028.mesh", "res://.godot/imported/sodaCanCrushed.obj-7ef4dc9f2fca9b1d7465a2aff40a3028.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a11fb55637da80dfaaac03f0477a30438f8db54438131b1391f3f7aa1dcb56e
+size 633

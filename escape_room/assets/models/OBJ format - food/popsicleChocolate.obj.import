@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://dfik1wpi1t1x6"
-path="res://.godot/imported/popsicleChocolate.obj-d11977eb464028cc92b22bcc40b3e04c.mesh"
-
-[deps]
-
-files=["res://.godot/imported/popsicleChocolate.obj-d11977eb464028cc92b22bcc40b3e04c.mesh"]
-
-source_file="res://assets/models/OBJ format - food/popsicleChocolate.obj"
-dest_files=["res://.godot/imported/popsicleChocolate.obj-d11977eb464028cc92b22bcc40b3e04c.mesh", "res://.godot/imported/popsicleChocolate.obj-d11977eb464028cc92b22bcc40b3e04c.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:57fc255708bce300dad93cd0db76f4293480c55a9c21c73cfae1b3aa05ced7e6
+size 648

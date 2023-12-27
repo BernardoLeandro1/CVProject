@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://0oe7tgkx6g7j"
-path="res://.godot/imported/pepper.obj-bb5b2ca21d644fd9f8f83d6120923e8e.mesh"
-
-[deps]
-
-files=["res://.godot/imported/pepper.obj-bb5b2ca21d644fd9f8f83d6120923e8e.mesh"]
-
-source_file="res://assets/models/OBJ format - food/pepper.obj"
-dest_files=["res://.godot/imported/pepper.obj-bb5b2ca21d644fd9f8f83d6120923e8e.mesh", "res://.godot/imported/pepper.obj-bb5b2ca21d644fd9f8f83d6120923e8e.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:da910f7cc625f43dcfb5a43dae8daf3c0ac40b244bc4e51ad2cd6b8c10321f7f
+size 592

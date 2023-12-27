@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://bl7x6thvqhgf2"
-path="res://.godot/imported/computerMouse.obj-1ae71bc508762a71710505dc6edf203c.mesh"
-
-[deps]
-
-files=["res://.godot/imported/computerMouse.obj-1ae71bc508762a71710505dc6edf203c.mesh"]
-
-source_file="res://assets/models/OBJ format/computerMouse.obj"
-dest_files=["res://.godot/imported/computerMouse.obj-1ae71bc508762a71710505dc6edf203c.mesh", "res://.godot/imported/computerMouse.obj-1ae71bc508762a71710505dc6edf203c.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:7018688e708ba599af56b75eae4b7e6d87f168233640ae365ff19efc48969b80
+size 621

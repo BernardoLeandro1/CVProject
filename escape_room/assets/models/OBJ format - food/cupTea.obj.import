@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://drb8qggjuhgvx"
-path="res://.godot/imported/cupTea.obj-f62d2d2db99ccf7dbf9cfc7e3b271327.mesh"
-
-[deps]
-
-files=["res://.godot/imported/cupTea.obj-f62d2d2db99ccf7dbf9cfc7e3b271327.mesh"]
-
-source_file="res://assets/models/OBJ format - food/cupTea.obj"
-dest_files=["res://.godot/imported/cupTea.obj-f62d2d2db99ccf7dbf9cfc7e3b271327.mesh", "res://.godot/imported/cupTea.obj-f62d2d2db99ccf7dbf9cfc7e3b271327.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:c40d0f850bd3680b74859dac56de5bb593d23891121c8f24a7609e503b6a9ddd
+size 593

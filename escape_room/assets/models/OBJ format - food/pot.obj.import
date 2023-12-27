@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://gohh081kru7w"
-path="res://.godot/imported/pot.obj-59037918537cf964df4728cdef51168f.mesh"
-
-[deps]
-
-files=["res://.godot/imported/pot.obj-59037918537cf964df4728cdef51168f.mesh"]
-
-source_file="res://assets/models/OBJ format - food/pot.obj"
-dest_files=["res://.godot/imported/pot.obj-59037918537cf964df4728cdef51168f.mesh", "res://.godot/imported/pot.obj-59037918537cf964df4728cdef51168f.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:b87515360edbebb407085fa017e1a92155c96cce47e17951d5238f86f3e45d5f
+size 577

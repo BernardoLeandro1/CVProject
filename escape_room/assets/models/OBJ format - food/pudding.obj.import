@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://cdxwpck8ee5qb"
-path="res://.godot/imported/pudding.obj-236ad96c259926b7a4485bce5de6382e.mesh"
-
-[deps]
-
-files=["res://.godot/imported/pudding.obj-236ad96c259926b7a4485bce5de6382e.mesh"]
-
-source_file="res://assets/models/OBJ format - food/pudding.obj"
-dest_files=["res://.godot/imported/pudding.obj-236ad96c259926b7a4485bce5de6382e.mesh", "res://.godot/imported/pudding.obj-236ad96c259926b7a4485bce5de6382e.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac7ab387d4a6387b476f51a7dc40c2a67814c1dbce6d2c00787fe25386c100a5
+size 598

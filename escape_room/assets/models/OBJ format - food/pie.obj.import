@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://ba4dkfp88u8f7"
-path="res://.godot/imported/pie.obj-0691845dc8780a3136f57adeee067763.mesh"
-
-[deps]
-
-files=["res://.godot/imported/pie.obj-0691845dc8780a3136f57adeee067763.mesh"]
-
-source_file="res://assets/models/OBJ format - food/pie.obj"
-dest_files=["res://.godot/imported/pie.obj-0691845dc8780a3136f57adeee067763.mesh", "res://.godot/imported/pie.obj-0691845dc8780a3136f57adeee067763.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ba64a11d0d1cacc566589dc108e6f53d3ea561562d691bd13624565eb943183
+size 578

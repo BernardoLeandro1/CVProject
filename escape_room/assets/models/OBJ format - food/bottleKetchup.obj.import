@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://ddmqoqwh6b1ou"
-path="res://.godot/imported/bottleKetchup.obj-3759a6a66dcb8970f541d7ba4f38f6db.mesh"
-
-[deps]
-
-files=["res://.godot/imported/bottleKetchup.obj-3759a6a66dcb8970f541d7ba4f38f6db.mesh"]
-
-source_file="res://assets/models/OBJ format - food/bottleKetchup.obj"
-dest_files=["res://.godot/imported/bottleKetchup.obj-3759a6a66dcb8970f541d7ba4f38f6db.mesh", "res://.godot/imported/bottleKetchup.obj-3759a6a66dcb8970f541d7ba4f38f6db.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:719f29393f246c99c9c12e4a66e37396f5c75e80a2bca407916998b94c54aae7
+size 628

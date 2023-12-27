@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://ixk5mqc3psuo"
-path="res://.godot/imported/sausageHalf.obj-650c06758c77de0dfeebf4294ac94232.mesh"
-
-[deps]
-
-files=["res://.godot/imported/sausageHalf.obj-650c06758c77de0dfeebf4294ac94232.mesh"]
-
-source_file="res://assets/models/OBJ format - food/sausageHalf.obj"
-dest_files=["res://.godot/imported/sausageHalf.obj-650c06758c77de0dfeebf4294ac94232.mesh", "res://.godot/imported/sausageHalf.obj-650c06758c77de0dfeebf4294ac94232.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd3680237cbf1b5db585a5b8862bb805096cde3f65cbbeff90e6eaa1a028f3cd
+size 617

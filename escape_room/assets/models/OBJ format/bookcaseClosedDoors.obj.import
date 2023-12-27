@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://cfx3ek6ja3nyk"
-path="res://.godot/imported/bookcaseClosedDoors.obj-0430746d89ef52a0c337f1a22e2ce4ab.mesh"
-
-[deps]
-
-files=["res://.godot/imported/bookcaseClosedDoors.obj-0430746d89ef52a0c337f1a22e2ce4ab.mesh"]
-
-source_file="res://assets/models/OBJ format/bookcaseClosedDoors.obj"
-dest_files=["res://.godot/imported/bookcaseClosedDoors.obj-0430746d89ef52a0c337f1a22e2ce4ab.mesh", "res://.godot/imported/bookcaseClosedDoors.obj-0430746d89ef52a0c337f1a22e2ce4ab.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e4b125a2b169afb7501b02b7793e0ac2c97271eb4bd6698599f3d1637e9d770
+size 651

@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://cwi21t52lqdq8"
-path="res://.godot/imported/mortar.obj-9705d96170eea1f1281991753a4c607e.mesh"
-
-[deps]
-
-files=["res://.godot/imported/mortar.obj-9705d96170eea1f1281991753a4c607e.mesh"]
-
-source_file="res://assets/models/OBJ format - food/mortar.obj"
-dest_files=["res://.godot/imported/mortar.obj-9705d96170eea1f1281991753a4c607e.mesh", "res://.godot/imported/mortar.obj-9705d96170eea1f1281991753a4c607e.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f97b46470c2aeecf7633fa8a2d5c41bd7927e063664a72d786a59c94801f5ae
+size 593

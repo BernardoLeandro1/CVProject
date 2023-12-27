@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://c2b4ec2jekv2i"
-path="res://.godot/imported/wallDoorway.obj-62441799bb4dd807836f00a303ea4a43.mesh"
-
-[deps]
-
-files=["res://.godot/imported/wallDoorway.obj-62441799bb4dd807836f00a303ea4a43.mesh"]
-
-source_file="res://assets/models/OBJ format/wallDoorway.obj"
-dest_files=["res://.godot/imported/wallDoorway.obj-62441799bb4dd807836f00a303ea4a43.mesh", "res://.godot/imported/wallDoorway.obj-62441799bb4dd807836f00a303ea4a43.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba9bae37b086b084e4c28c71ca00918a13af301e75aaaa7bca5a2860ebd7b8e7
+size 611

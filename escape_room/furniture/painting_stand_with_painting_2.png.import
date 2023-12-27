@@ -1,36 +1,3 @@
-[remap]
-
-importer="texture"
-type="CompressedTexture2D"
-uid="uid://bosk8mh2sn186"
-path.s3tc="res://.godot/imported/painting_stand_with_painting_2.png-a2116e316e1d0cb5e40c42e96dadf964.s3tc.ctex"
-metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
-}
-generator_parameters={}
-
-[deps]
-
-source_file="res://furniture/painting_stand_with_painting_2.png"
-dest_files=["res://.godot/imported/painting_stand_with_painting_2.png-a2116e316e1d0cb5e40c42e96dadf964.s3tc.ctex"]
-
-[params]
-
-compress/mode=2
-compress/high_quality=false
-compress/lossy_quality=0.7
-compress/hdr_compression=1
-compress/normal_map=1
-compress/channel_pack=0
-mipmaps/generate=true
-mipmaps/limit=-1
-roughness/mode=1
-roughness/src_normal="res://furniture/painting_stand_with_painting_2.png"
-process/fix_alpha_border=true
-process/premult_alpha=false
-process/normal_map_invert_y=false
-process/hdr_as_srgb=false
-process/hdr_clamp_exposure=false
-process/size_limit=0
-detect_3d/compress_to=0
+version https://git-lfs.github.com/spec/v1
+oid sha256:c02ccd8ec69f955824743c81ae428160ae36e475d1891abc3e149d92d828753b
+size 956

@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://c8mdevo8j647g"
-path="res://.godot/imported/kitchenSink.obj-e349e231c044ad19c6218f28d0e3d09c.mesh"
-
-[deps]
-
-files=["res://.godot/imported/kitchenSink.obj-e349e231c044ad19c6218f28d0e3d09c.mesh"]
-
-source_file="res://assets/models/OBJ format/kitchenSink.obj"
-dest_files=["res://.godot/imported/kitchenSink.obj-e349e231c044ad19c6218f28d0e3d09c.mesh", "res://.godot/imported/kitchenSink.obj-e349e231c044ad19c6218f28d0e3d09c.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b341b01a6a5fb0878c0ac867bda124a664c64e8c7153b823c27c5b7589f2d8a
+size 611

@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://cwj05hsq13kvw"
-path="res://.godot/imported/dimSum.obj-9d4b10dd53dcf5058eb164d15f0a3d0f.mesh"
-
-[deps]
-
-files=["res://.godot/imported/dimSum.obj-9d4b10dd53dcf5058eb164d15f0a3d0f.mesh"]
-
-source_file="res://assets/models/OBJ format - food/dimSum.obj"
-dest_files=["res://.godot/imported/dimSum.obj-9d4b10dd53dcf5058eb164d15f0a3d0f.mesh", "res://.godot/imported/dimSum.obj-9d4b10dd53dcf5058eb164d15f0a3d0f.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:3bed59c690f53ecd682769d33975e02f6e98ad71515cb3bfed6af060a36d3090
+size 593

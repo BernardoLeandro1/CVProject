@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://bha7kqhjh38i3"
-path="res://.godot/imported/loungeChair.obj-27293999a79fcbe2ff4c7ed9ea6662bc.mesh"
-
-[deps]
-
-files=["res://.godot/imported/loungeChair.obj-27293999a79fcbe2ff4c7ed9ea6662bc.mesh"]
-
-source_file="res://assets/models/OBJ format/loungeChair.obj"
-dest_files=["res://.godot/imported/loungeChair.obj-27293999a79fcbe2ff4c7ed9ea6662bc.mesh", "res://.godot/imported/loungeChair.obj-27293999a79fcbe2ff4c7ed9ea6662bc.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:858588b8405f064f999d9158bfb690d6a3892bac6f42bb847c178ff3051f86c3
+size 611

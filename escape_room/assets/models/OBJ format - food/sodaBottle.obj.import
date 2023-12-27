@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://biwtuax2nth6i"
-path="res://.godot/imported/sodaBottle.obj-dcee2cbf43a13b2633c1b352335bb125.mesh"
-
-[deps]
-
-files=["res://.godot/imported/sodaBottle.obj-dcee2cbf43a13b2633c1b352335bb125.mesh"]
-
-source_file="res://assets/models/OBJ format - food/sodaBottle.obj"
-dest_files=["res://.godot/imported/sodaBottle.obj-dcee2cbf43a13b2633c1b352335bb125.mesh", "res://.godot/imported/sodaBottle.obj-dcee2cbf43a13b2633c1b352335bb125.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:d94b3780336444c27415fd83d152fbdd8dcdfb96f73e7016b315b025a8b1b992
+size 613

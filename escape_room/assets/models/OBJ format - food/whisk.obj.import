@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://dyn8qvm7n48hj"
-path="res://.godot/imported/whisk.obj-5e8e5f6c146921eb489a85e688ebbab1.mesh"
-
-[deps]
-
-files=["res://.godot/imported/whisk.obj-5e8e5f6c146921eb489a85e688ebbab1.mesh"]
-
-source_file="res://assets/models/OBJ format - food/whisk.obj"
-dest_files=["res://.godot/imported/whisk.obj-5e8e5f6c146921eb489a85e688ebbab1.mesh", "res://.godot/imported/whisk.obj-5e8e5f6c146921eb489a85e688ebbab1.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:032984b16715badf1b59768628fef9dc7fd70f3045a0b44141c17f9d496e2d90
+size 588

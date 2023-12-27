@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://cox4e06w0lvoi"
-path="res://.godot/imported/chairModernCushion.obj-f7543402df8ea9a8b3a4dcea2e1d9fab.mesh"
-
-[deps]
-
-files=["res://.godot/imported/chairModernCushion.obj-f7543402df8ea9a8b3a4dcea2e1d9fab.mesh"]
-
-source_file="res://assets/models/OBJ format/chairModernCushion.obj"
-dest_files=["res://.godot/imported/chairModernCushion.obj-f7543402df8ea9a8b3a4dcea2e1d9fab.mesh", "res://.godot/imported/chairModernCushion.obj-f7543402df8ea9a8b3a4dcea2e1d9fab.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b43f843d4d70f842ca43ce82aef49443b8c9fb91d0cc9a46c0fb9b9c0432cf1
+size 646

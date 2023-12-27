@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://csjsx5rnsg0os"
-path="res://.godot/imported/skewerVegetables.obj-e527981f3caf84a9e020dca7f6b2f114.mesh"
-
-[deps]
-
-files=["res://.godot/imported/skewerVegetables.obj-e527981f3caf84a9e020dca7f6b2f114.mesh"]
-
-source_file="res://assets/models/OBJ format - food/skewerVegetables.obj"
-dest_files=["res://.godot/imported/skewerVegetables.obj-e527981f3caf84a9e020dca7f6b2f114.mesh", "res://.godot/imported/skewerVegetables.obj-e527981f3caf84a9e020dca7f6b2f114.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:11ed4be16eccd8a1e31d9d01b4306afc6bcde65243b7fd09b658e1c4943c0187
+size 643

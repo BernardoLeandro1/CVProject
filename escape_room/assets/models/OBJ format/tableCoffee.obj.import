@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://mhm55040ou0s"
-path="res://.godot/imported/tableCoffee.obj-9017346a0fc6f6dbd4eb50a4562cc3a8.mesh"
-
-[deps]
-
-files=["res://.godot/imported/tableCoffee.obj-9017346a0fc6f6dbd4eb50a4562cc3a8.mesh"]
-
-source_file="res://assets/models/OBJ format/tableCoffee.obj"
-dest_files=["res://.godot/imported/tableCoffee.obj-9017346a0fc6f6dbd4eb50a4562cc3a8.mesh", "res://.godot/imported/tableCoffee.obj-9017346a0fc6f6dbd4eb50a4562cc3a8.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:451705116191bb5df8b31d0779b4c8abf67e9a99ce2c02fd6aadb7dccbcd36a3
+size 610

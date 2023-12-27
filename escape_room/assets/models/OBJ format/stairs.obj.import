@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://dqgn646g2qie6"
-path="res://.godot/imported/stairs.obj-77df7553b3e4d9547fffa3e23d9caeaa.mesh"
-
-[deps]
-
-files=["res://.godot/imported/stairs.obj-77df7553b3e4d9547fffa3e23d9caeaa.mesh"]
-
-source_file="res://assets/models/OBJ format/stairs.obj"
-dest_files=["res://.godot/imported/stairs.obj-77df7553b3e4d9547fffa3e23d9caeaa.mesh", "res://.godot/imported/stairs.obj-77df7553b3e4d9547fffa3e23d9caeaa.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:26e9d261cba98e19931150d19ac05acd720e355843d35fc5f3d92a2918b8045a
+size 586

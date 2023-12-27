@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://7ifjmftmiu5r"
-path="res://.godot/imported/wallHalf.obj-cf86f6f99d77ad232b91c23af2ceb807.mesh"
-
-[deps]
-
-files=["res://.godot/imported/wallHalf.obj-cf86f6f99d77ad232b91c23af2ceb807.mesh"]
-
-source_file="res://assets/models/OBJ format/wallHalf.obj"
-dest_files=["res://.godot/imported/wallHalf.obj-cf86f6f99d77ad232b91c23af2ceb807.mesh", "res://.godot/imported/wallHalf.obj-cf86f6f99d77ad232b91c23af2ceb807.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c5d04999e7db409e95a3e6efaf9ad20ca19370bf501d432c54215f4d013d821
+size 595

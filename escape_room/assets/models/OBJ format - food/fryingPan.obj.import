@@ -1,21 +1,3 @@
-[remap]
-
-importer="wavefront_obj"
-importer_version=1
-type="Mesh"
-uid="uid://b82wlttt8rokh"
-path="res://.godot/imported/fryingPan.obj-ba5a5a5df41d24a196d0a51a26832771.mesh"
-
-[deps]
-
-files=["res://.godot/imported/fryingPan.obj-ba5a5a5df41d24a196d0a51a26832771.mesh"]
-
-source_file="res://assets/models/OBJ format - food/fryingPan.obj"
-dest_files=["res://.godot/imported/fryingPan.obj-ba5a5a5df41d24a196d0a51a26832771.mesh", "res://.godot/imported/fryingPan.obj-ba5a5a5df41d24a196d0a51a26832771.mesh"]
-
-[params]
-
-generate_tangents=true
-scale_mesh=Vector3(1, 1, 1)
-offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4f145ae006c3bfaeef9fa5aac08717105ea98bb83ac311420b3cedae3dd2b87
+size 608
