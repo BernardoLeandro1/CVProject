@@ -1,5 +1,6 @@
 # CVProject
 Repository for Visual Computation project, made by:
+
 Bernardo Leandro - 98652
 Florentino de Pinho - 98181
 Miguel Marques - 98532
