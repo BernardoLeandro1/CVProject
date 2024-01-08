@@ -20,5 +20,6 @@ Basement - Once the player finishes the kitchen recipe, they will be able to acc
 
 
 Learning outcomes:
+
 The development of this game helped us understand the different visual computing processes behind the creation of 3D images as well as having a notion of how perspective transformation needs to be applied    
 depending on the position of the player. It also made us aware of how visual perception and attention need to be handled to facilitate the players understanding of the objectives they need to achieve to progress through the game. Besides that, we learned how to use a new game engine.
