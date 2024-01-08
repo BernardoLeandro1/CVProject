@@ -26,3 +26,9 @@ Learning outcomes:
 
 The development of this game helped us understand the different visual computing processes behind the creation of 3D images as well as having a notion of how perspective transformation needs to be applied    
 depending on the position of the player. It also made us aware of how visual perception and attention need to be handled to facilitate the players understanding of the objectives they need to achieve to progress through the game. Besides that, we learned how to use a new game engine.
+
+Links for:
+
+Final Presentation: https://uapt33090-my.sharepoint.com/:p:/g/personal/florentino_ua_pt/EVWjuJoP-WJPjTYb76lz2iUBFbqz6Hjfe8FqrJkbP4o92g?rtime=cvzb4YMQ3Eg
+
+Video Report: https://www.youtube.com/watch?v=XMHf9rXqzc4 
