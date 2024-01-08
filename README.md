@@ -2,7 +2,9 @@
 Repository for Visual Computation project, made by:
 
 Bernardo Leandro - 98652
+
 Florentino de Pinho - 98181
+
 Miguel Marques - 98532
 
 With the help of Godot game engine, we built an escape room where the player is locked in a house and needs to solve puzzles to progress through the different rooms to escape. We started creating the different levels, adding a puzzle to each one and then connecting all of them.
