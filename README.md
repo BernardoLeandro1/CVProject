@@ -11,6 +11,10 @@ With the help of Godot game engine, we built an escape room where the player is 
 
 Throughout the game, we explore concepts such as object rotation and translation, lightning, particle systems, texture applications and animations.
 
+How to Run:
+
+Download the code and run it through Godot game engine
+
 Results:
 
 Bedroom - In this house division, the player is bound to the bed by a rope, which is a straight line where it tracks the player position to update the line coordinates and draw it, to cut the rope the player needs to pick up a scissor, after this the player needs to find the key that is on a desk drawer to unlock the door.
